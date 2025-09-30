@@ -1,5 +1,6 @@
-# cg-council
-This repository, associated with the [W3C Community Council](https://www.w3.org/community/council/) is used to track issues and improvements with the W3C Community Groups and Business Groups program.
+# Community Group Program Repository 
+
+This repository, associated with the [W3C Community Group Program CG](https://www.w3.org/community/council/) is used to track issues and improvements with the W3C Community Groups and Business Groups program.
 
 The W3C Team uses this repository to reflect the history and status of policy files that govern Community and Business Groups.
 
@@ -26,7 +27,7 @@ Changes may affect a number of aspects of the program:
 * Tooling support
 * Visual design and information architecture
 
-The Council's [issues related to revamp 2024](https://github.com/w3c/cg-council/labels/revamp-2024) capture some of the themes and challenges that we have surfaced through our discussions.
+The group's [issues related to revamp 2024](https://github.com/w3c/cg-program/labels/revamp-2024) capture some of the themes and challenges that we have surfaced through our discussions.
 
 ### Proposals
 
