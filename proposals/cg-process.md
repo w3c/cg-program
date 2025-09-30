@@ -189,7 +189,7 @@ In cases where Specifications do not meet these requirements, after attempts to 
 
 Some (but not all) Community Group Specifications advance to standardization in W3C or another standards body.
 
-A Community Group that is interested in standardization (at W3C or elsewhere) should contact the Community Development Lead who will organize a conversation about [Considerations when transferring a CG Specification for Standardization](https://github.com/w3c/cg-council/blob/main/transfer-considerations.md).
+A Community Group that is interested in standardization (at W3C or elsewhere) should contact the Community Development Lead who will organize a conversation about [Considerations when transferring a CG Specification for Standardization](https://github.com/w3c/cg-program/blob/main/transfer-considerations.md).
 
 A Community Group should document its standardization plans for a Specification as soon as they are made. W3C will provide guidance to help Community Groups communicate their standardization plans.
 
