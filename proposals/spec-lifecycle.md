@@ -34,8 +34,8 @@ In addition, as part of a plan to enhance the Community Group program, we plan t
 We seek to communicate specification status to these audiences:
 
 * CG Participants
-* Developers (of Web applications)
 * Implementers (of APIs, for example in a browser)
+* Adopters (e.g., developers of Web applications)
 * Horizontal review groups at W3C
 * SDOs (especially those who may standardize CG Specifications)
 * Regulators
@@ -57,21 +57,37 @@ Circumstances are likely to come from both curated sources and metadata already 
 
 **Note:** We are also discussing standardization plan metadata, and all the curated data may end up in once place.
 
-### Curated data
+### Development status
 
-Ideally we could group data under four categories:
+* **Group status**. Typically managed through W3C database (e.g., group open, closed, or dormant)
+* **Community consensus**. Is there strong support for the specification? Strong opposition? Alternative proposals?
+* **Specification stability**. Indicate community expectation for specification stability. Would significant changes disrupt the ecosystem of the Specification (e.g., in terms of adoption or references)? One specific use case is to send a "last call" stability signal. Could include "last modified" date here or in details section.
+* **Implementer participation**. Are potential implementers of the specification participating in its development?
 
-* Development status
-* Implementer guidance
-* Adopter guidance
-* Standardization plan
+### Implementer guidance
 
-#### Test suite
+The group encourages experimental implementation and feedback (or "not yet").
 
-* **Source**
-  * URL to tests, otherwise empty to indicate no known tests
+* **Test suite**. URL to tests or 'None'
+* **Implementation traction**. Determined from announcements of intent to prototype, implement, ship; automated detection of shipping features.
 
-#### Implementation
+### Adopter guidance
+
+* **Known adoptions**. Identify known pilots or experiments, examples of real-world deployments.
+* **Patent licensing commitments**. Typically determined by CLA, but will differ if spec was part of a call for final specification commitments.
+
+### Standardization plan
+
+This is **not** a W3C standard. Standardization plans:
+
+* **Plans**.  We are developing separately ideas for metadata to describe standardization plans (e.g., if plan to standardize, what venue and on what schedule); whether that data lives in a separate document or is part of other circumstances data remains to be seen.
+* **Revision management**. Does the CG work on new versions only? Does it provide input to a standards group on an ongoing basis? Note: This information is only necessary for the stage "transferred".
+
+## Detailed information
+
+This information might appear after the "top line" circumstances (e.g., in expandable UX).
+
+### Implementations
 
 We foresee a list of implementation blocks. For each block:
 
@@ -84,43 +100,6 @@ We foresee a list of implementation blocks. For each block:
   * Intent to implement
   * Prototype
   * Shipping
-
-#### Community support
-
-* **Consensus**  
-  * Is there strong support for the specification? Strong opposition? Alternative proposals?
-* **Stability**
-  * Indicate community expectation for specification stability. Would significant changes disrupt the ecosystem of the Specification (e.g., in terms of adoption or references)?
-  * One specific use case is to send a "last call" stability signal.
-* **Implementer participation**  
-  * Are potential implementers of the specification participating in its development?
-* **Adoption**
-  * Identify known pilots or experiments.
-  * Identify examples of real-world deployment
-
-#### Revision management
-
-This information is only necessary for the stage "transferred":
-
-* **Revision management**
-  * Independent (CG works on new versions only)
-  * Codependent (CG works on materials as input to standards group)
-   
-   
-### Data managed elsewhere
-
-* Last modified
-  * Typically managed within document (e.g., publication date or last commit date)
-* Implementation traction
-  * Determined from announcements of intent to prototype, implement, ship; automated detection of shipping features
-* Group status
-  * Typically managed through W3C database (e.g., group open, closed, or dormant)
-* Patent licensing commitments
-  * Typically determined by stage (draft)
-  * There may be more options soon depending on potential changes to CLA.
-* Standardization plan
-  * We are developing separately ideas for metadata to describe standardization plans (e.g., if plan to standardize, what venue and on what schedule); whether that data lives
-in a separate document or is part of other circumstances data remains to be seen.
 
 ### Ideas for data management
 
@@ -136,9 +115,5 @@ in a separate document or is part of other circumstances data remains to be seen
 ## Usage Guidance
 
 * Reports (and repos) should include usage guidance that depend on the status and circumstances. It might be interesting to see if we can generate the usage guidance systematically for each combination of status and circumstance.
-* All usage guidance for CG Specifications must say “Not a standard. We do not recommend that it be used where W3C standards are required.” 
-* It is likely appropriate to say for all CG specifications: “It is appropriate for developers to experiment with implementing this specification.”
-* Traction = High
-   * Standardization expectation = “unknown => Although this specification appears to be gaining traction, at this time, we are not aware of any standardization expectations.”
    * Standardization expectation = “intent => This specification appears to be gaining traction and the CG has indicated an intent to advance to standardization. We recommend checking periodically to see whether the specification has been transferred to a group for standardization.”
 
