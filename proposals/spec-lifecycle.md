@@ -59,6 +59,13 @@ Circumstances are likely to come from both curated sources and metadata already 
 
 ### Curated data
 
+Ideally we could group data under four categories:
+
+* Development status
+* Implementer guidance
+* Adopter guidance
+* Standardization plan
+
 #### Test suite
 
 * **Source**
