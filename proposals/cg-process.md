@@ -27,7 +27,7 @@ Since 2011, the W3C Community Group program has hosted discussions about the Web
 * [Community Group patent and copyright policies](https://www.w3.org/community/about/process/summary/)
 * [Guidelines to suspend or remove participants from groups](https://www.w3.org/guide/process/suspension.html), which this policy extends to Community Groups.
 
-W3C may, from time to time, create additional [policies](https://www.w3.org/policies/) that govern aspects of participation in Community Groups.
+W3C may, from time to time, update these policies or create additional [policies](https://www.w3.org/policies/) and the latest versions will govern aspects of participation in Community Groups.
 
 ## Community Group program management
 
