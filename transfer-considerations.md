@@ -24,7 +24,6 @@ It is a goal of the Community Group program that specifications with traction ad
 * Is the CG Specification actively changing, or stable (and if so, when was it last modified)?
 * How many independent implementations are there? 
 * Does the Specification depend heavily on other technologies that are not yet on a standards track?
-* Has there been any review of the CG Specification by horizontal groups within the W3C (e.g., the TAG)?
 
 ### Standardization opportunity
 
