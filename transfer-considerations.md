@@ -65,8 +65,6 @@ It is a goal of the Community Group program that specifications with traction ad
 * What is the relationship between the CG Specification and other work streams at W3C? 
   * Is there an existing Working Group that would make a reasonable home for the CG Specification?
   * Are there other Community Groups working on similar projects? Does it make sense for several CGs to work together as a way to gain more support from the broader Membership?
-* **Twinned WG/CG**: After transfer, a Working Group has change control over the material that it develops on the Recommendation Track. The Community Group can continue to incubate new related material (in the process mode of a Specification with traction). Some considerations:
-  * If the CG wishes to change materials that are also found in the WG Specification, how do the groups manage alignment?
 * **Enhancement in development**: Traditionally within W3C, Working Group participation has been reserved for W3C Members and Invited Experts. We seek to change this practice so that non-Member CG participants who have made significant contributions to a CG Specification are invited to participate at no cost in the Working Group that takes up the CG Specification, provided that the individual’s employer makes an organizational-level commitment to the W3C Working Group for that same Specification.
 
 CG Chairs are also encouraged to familiarize themselves with the [W3C Process for creating a Working Group](https://www.w3.org/policies/process/#group-lifecycle) and the [operational details](https://www.w3.org/guide/process/charter.html#new-charters) of chartering a Working Group.
@@ -107,5 +105,5 @@ It is also useful to consider the following IPR topics:
 * What is the Community Group’s expectation about continuing to work on the topic after handing off the CG Specification for standardization?
    * For example, a Community Group might a venue for developers to provide feedback and express concerns, while a Working Group might focus on standardization of the specification.
 * Do the Community Group and the potential venue for standardization share expectations about how revisions will be handled? 
-   * From a W3C perspective, it is acceptable for a Community Group to continue to incubate new material relative to a Specification that it has handed off to a standards group (a W3C Working Group or other SDO). 
+   * From a W3C perspective, it is acceptable for a "twinned" Community Group to continue to incubate new material relative to a Specification that it has handed off to a standards group (a W3C Working Group or other SDO). 
    * In this case, clear communication about “what is being standardized” and “what is being incubated” is critical to avoid market confusion.
