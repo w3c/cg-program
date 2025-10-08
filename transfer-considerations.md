@@ -41,10 +41,6 @@ It is a goal of the Community Group program that specifications with traction ad
 
 ## Handoff Considerations
 
-### Community
-
-* Are the Community Group participants prepared to hand change control for the CG Specification over to a standards group? (See more on [revision management](#revision-management) below.)
-
 ### Venue
 
 #### General Considerations
@@ -103,6 +99,7 @@ It is also useful to consider the following IPR topics:
 
 ### Revision management
 
+* Are the Community Group participants prepared to hand change control for the CG Specification over to a standards group?
 * What is the Community Group’s expectation about continuing to work on the topic after handing off the CG Specification for standardization?
    * For example, a Community Group might a venue for developers to provide feedback and express concerns, while a Working Group might focus on standardization of the specification.
 * Do the Community Group and the potential venue for standardization share expectations about how revisions will be handled? 
