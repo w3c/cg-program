@@ -4,6 +4,8 @@ Status:  This is a draft with no standing. Questions? Raise issues in this repo 
 See also the AB [Priority Project on Incubation](https://www.w3.org/wiki/AB/2024_Priorities#Incubation) & 
 [white paper on incubation (Member-only)](https://github.com/w3c/AB-memberonly/blob/main/documents/Incubation.md), [Recommendation Track Readiness Best Practices](https://www.w3.org/guide/standards-track/), and the existing [CG transition guide](https://www.w3.org/guide/process/cg-transition.html).
 
+In the future we may turn this into a checklist to be completed as input from CG Chairs to a conversation with staff.
+
 ## Introduction
 
 It is a goal of the Community Group program that specifications with traction advance to a standardization process, either within W3C or another SDO. The W3C staff seeks to support Community Groups as soon as they begin to contemplate standardization. We document here common questions and considerations when transferring a CG Specification for standardization.
@@ -18,6 +20,7 @@ It is a goal of the Community Group program that specifications with traction ad
    * Have they been involved in its development? Have potential implementers given signals of interest (e.g., actual implementations or announcements of intent to prototype)?
 * Are there multiple independent parties contributing to the CG Specification, or is the effort largely driven by a single organization or individual?
 * Is there broad consensus within the CG for the approach taken by the CG Specification or are there clear signals of lack of consensus within the group (or beyond the group)?
+* Do you have a regular point of contact on the W3C staff?
 
 ### Specification context
 
@@ -38,6 +41,7 @@ It is a goal of the Community Group program that specifications with traction ad
 
 * Has the group called for [Final Specification](https://www.w3.org/community/about/process/final/) commitments?
 * Are there any known IPR issues related to the CG Specification?
+* Are you using the IPR checker on your repos?
 
 ## Handoff Considerations
 
@@ -105,12 +109,3 @@ It is also useful to consider the following IPR topics:
 * Do the Community Group and the potential venue for standardization share expectations about how revisions will be handled? 
    * From a W3C perspective, it is acceptable for a Community Group to continue to incubate new material relative to a Specification that it has handed off to a standards group (a W3C Working Group or other SDO). 
    * In this case, clear communication about “what is being standardized” and “what is being incubated” is critical to avoid market confusion.
-
-## Logistical Considerations
-
-* Do you have a regular point of contact on the W3C staff?
-* Are you using the IPR checker on your repos?
-
-## Notes
-
-* In the future we may turn this into a checklist to be completed as input from CG Chairs to a conversation with staff.
