@@ -60,7 +60,7 @@ Circumstances are likely to come from both curated sources and metadata already 
 ### Development status
 
 * **Group status**. Typically managed through W3C database (e.g., group open, closed, or dormant)
-* **Community consensus**. Is there strong support for the specification? Strong opposition? Alternative proposals?
+* **Community support**. Is there strong support for the specification? Strong opposition? Alternative proposals?
 * **Specification stability**. Indicate community expectation for specification stability. Would significant changes disrupt the ecosystem of the Specification (e.g., in terms of adoption or references)? One specific use case is to send a "last call" stability signal. Could include "last modified" date here or in details section.
 * **Implementer participation**. Are potential implementers of the specification participating in its development?
 
