@@ -72,7 +72,9 @@ The group encourages experimental implementation and feedback (or "not yet").
 * **Implementation traction**. Determined from announcements of intent to prototype, implement, ship; automated detection of shipping features.
 
 ### Adopter guidance
+This technology is experimental and **will** change. 
 
+* **Experimentation status**. Whether it is a good time to experiment with the technology (or not).
 * **Known adoptions**. Identify known pilots or experiments, examples of real-world deployments.
 * **Patent licensing commitments**. Typically determined by CLA, but will differ if spec was part of a call for final specification commitments.
 
