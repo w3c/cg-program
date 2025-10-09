@@ -47,7 +47,9 @@ We seek to communicate specification status to these audiences:
 * **Draft**
    * Meaning: In development in this CG
 * **Snapshot**
-   * Meaning: The CG has published a version of the document that will not change (e.g., it might be a stable version 1). The status of the specification sets expectations at the time of publication about whether the specification was successfully completed and may be used, or was abandoned before being snapshot.
+   * Meaning: The CG has published a version of the document that will not change (e.g., it might be a stable version 1). This is typically done for IPR reasons. The status section of the document explains the context for the snapshot.
+* **Abandoned**
+   * Meaning: The CG has stopped work on the document, either by explicitly abandoning the work, or simply no longer working on it. The status section of the document explains the context for the abandonment.
 * **Transferred** 
    * Meaning: Transferred for more development; no longer in development in this CG. May be in development or standardization elsewhere (see status for details).
 
