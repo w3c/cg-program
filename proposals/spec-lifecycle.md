@@ -51,7 +51,7 @@ We seek to communicate specification status to these audiences:
 * **Abandoned**
    * Meaning: The CG has stopped work on the document, either by explicitly abandoning the work, or simply no longer working on it. The status section of the document explains the context for the abandonment.
 * **Transferred** 
-   * Meaning: Transferred for more development; no longer in development in this CG. May be in development or standardization elsewhere (see status for details).
+   * Meaning: Transferred for more development; no longer in development in this CG. May be in development or standardization elsewhere. The status section of the document should explains the context for the transfer.
 
 ## Circumstances
 
