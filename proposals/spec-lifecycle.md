@@ -57,7 +57,7 @@ Groups may wish to take different approaches to versioning. We should support a 
 
 * Living specification. There is only ever one specifiation and one version of the specification.
 * Series of snapshots of a given version. Typically each snapshot is identified with a URL, and there is a second URL to identify the latest specification in the series. One reason for a snapshot is for IPR considerations.
-* Multiple versions, each version identified with a (latest version) URL. 
+* Multiple versions, each version identified with a URL. 
 
 It will be useful to communicate to readers:
 
