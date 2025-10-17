@@ -75,7 +75,7 @@ CG Chairs are also encouraged to familiarize themselves with the [W3C Process fo
 * What are the confidentiality policies of the SDO? This may have an impact on revision management strategies.
 * Does W3C have a [liaison](https://www.w3.org/liaisons/) with any of the other SDOs?
 
-### Intellectual Property
+### Intellectual Property Transfer
 
 * See [Are IPR commitments in place?](https://www.w3.org/guide/process/cg-transition.html#are-ipr-commitments-in-place) when requesting publication on the Rec Track.
 
