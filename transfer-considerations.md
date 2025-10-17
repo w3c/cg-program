@@ -14,12 +14,12 @@ It is a goal of the Community Group program that specifications with traction ad
 
 ### Community
 
-* What are the primary use cases the CG Specification seeks to address (e.g., is there an explainer)? 
-   * Have the parties who have those use cases been involved in the development of the CG Specification? 
-* Who are the primary implementers of the CG Specification? 
-   * Have they been involved in its development? Have potential implementers given signals of interest (e.g., actual implementations or announcements of intent to prototype)?
+* Has the community documented the use cases the CG Specification seeks to address (e.g., is there an explainer)?
+* Have the parties who have those use cases been involved in the development of the Specification?
+* Have implementers been involved in its development? Given signals of interest  (e.g., actual implementations or announcements of intent to prototype)?
 * Are there multiple independent parties contributing to the CG Specification, or is the effort largely driven by a single organization or individual?
-* Is there broad consensus within the CG for the approach taken by the CG Specification or are there clear signals of lack of consensus within the group (or beyond the group)?
+* Is there consensus within the group for the approach? 
+* Are there strong signals of disagreement within or outside the group? Have there been attempts to work through those?
 * Do you have a regular point of contact on the W3C staff?
 
 ### Specification context
@@ -32,7 +32,7 @@ It is a goal of the Community Group program that specifications with traction ad
 
 * Are there aspects of the opportunity that are time-sensitive?
 * What are the signals of industry demand for a standard in this space? 
-   * Are there pilots experimenting with the technology?
+   * Are there pilots?
 * What are the signals of a regulatory demand for a standard in this space?
 * Are there references to the CG Specification from other specifications (from CGs, W3C WGs, or other SDOs)?
 * Are there other signals that lead the group to believe that there is an emerging standardization opportunity?
@@ -49,7 +49,7 @@ It is a goal of the Community Group program that specifications with traction ad
 
 #### General Considerations
 
-* In what bucket would you put this topic?
+* What is the nature of the topic among these options:
   * Core Web technology that can be leveraged in a wide variety of use cases. 
   * Vertical technology (e.g., health care and life sciences, real estate). If so, what is the argument for standardization at W3C? For example, given the linked data community at W3C, there may be an argument for standardization of a broadly useful linked data specification.
   * Horizontal (e.g., sustainability, accessibility, internationalization) that affects work across the consortium? How does this work support the W3C mission?
@@ -65,7 +65,8 @@ It is a goal of the Community Group program that specifications with traction ad
 * What is the relationship between the CG Specification and other work streams at W3C? 
   * Is there an existing Working Group that would make a reasonable home for the CG Specification?
   * Are there other Community Groups working on similar projects? Does it make sense for several CGs to work together as a way to gain more support from the broader Membership?
-* **Enhancement in development**: Traditionally within W3C, Working Group participation has been reserved for W3C Members and Invited Experts. We seek to change this practice so that non-Member CG participants who have made significant contributions to a CG Specification are invited to participate at no cost in the Working Group that takes up the CG Specification, provided that the individual’s employer makes an organizational-level commitment to the W3C Working Group for that same Specification.
+  * Whare are the perceived barriers to starting a W3C Working Group?
+     * **Enhancement in development**: Traditionally within W3C, Working Group participation has been reserved for W3C Members and Invited Experts. We seek to change this practice so that non-Member CG participants who have made significant contributions to a CG Specification are invited to participate at no cost in the Working Group that takes up the CG Specification, provided that the individual’s employer makes an organizational-level commitment to the W3C Working Group for that same Specification.
 
 CG Chairs are also encouraged to familiarize themselves with the [W3C Process for creating a Working Group](https://www.w3.org/policies/process/#group-lifecycle) and the [operational details](https://www.w3.org/guide/process/charter.html#new-charters) of chartering a Working Group.
 
@@ -76,7 +77,9 @@ CG Chairs are also encouraged to familiarize themselves with the [W3C Process fo
 
 ### Intellectual Property
 
-See [Are IPR commitments in place?](https://www.w3.org/guide/process/cg-transition.html#are-ipr-commitments-in-place) when requesting publication on the Rec Track.
+* See [Are IPR commitments in place?](https://www.w3.org/guide/process/cg-transition.html#are-ipr-commitments-in-place) when requesting publication on the Rec Track.
+
+It is important that participants be aware of how IPR flows when the Specification is transferred to a W3C Working Group or another SDO.
 
 #### W3C Considerations
 
