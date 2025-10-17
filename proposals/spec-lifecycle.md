@@ -45,13 +45,26 @@ We seek to communicate specification status to these audiences:
 ## Maturity stages
 
 * **Draft**
-   * Meaning: In development in this CG
-* **Snapshot**
-   * Meaning: The CG has published a version of the document that will not change (e.g., it might be a stable version 1). This is typically done for IPR reasons. The status section of the document explains the context for the snapshot.
+   * Meaning: In development in this Community Group.
 * **Abandoned**
    * Meaning: The CG has stopped work on the document, either by explicitly abandoning the work, or simply no longer working on it. The status section of the document explains the context for the abandonment.
 * **Transferred** 
    * Meaning: Transferred for more development; no longer in development in this CG. May be in development or standardization elsewhere. The status section of the document should explains the context for the transfer.
+   
+### Version management
+
+Groups may wish to take different approaches to versioning. We should support a variety of approaches, as long as we can communicate version information clearly. Some examples of versioning approaches:
+
+* Living specification. There is only ever one specifiation and one version of the specification.
+* Series of snapshots of a given version. Typically each snapshot is identified with a URL, and there is a second URL to identify the latest specification in the series. One reason for a snapshot is for IPR considerations.
+* Multiple versions, each version identified with a (latest version) URL. 
+
+It will be useful to communicate to readers:
+
+* Within a given version, when a more recent snapshot is available.
+* When multiple versions exist, when a more recent version is available.
+
+We expect to prioritize the first situation in the revamp project.
 
 ## Circumstances
 
