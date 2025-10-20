@@ -77,7 +77,7 @@ CG Chairs are also encouraged to familiarize themselves with the [W3C Process fo
 
 ### Intellectual Property Transfer
 
-* See [Are IPR commitments in place?](https://www.w3.org/guide/process/cg-transition.html#are-ipr-commitments-in-place) when requesting publication on the Rec Track.
+* See [Are IPR commitments in place?](https://www.w3.org/guide/process/cg-transition.html#are-ipr-commitments-in-place) when requesting publication on the Rec Track and in particular listing contributors via [GitHub tooling for specs](https://www.w3.org/guide/process/cg-transition.html#github-repository-management).
 
 It is important that participants be aware of how IPR flows when the Specification is transferred to a W3C Working Group or another SDO.
 
