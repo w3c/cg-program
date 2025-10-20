@@ -77,7 +77,7 @@ CG Chairs are also encouraged to familiarize themselves with the [W3C Process fo
 
 ### Intellectual Property Transfer
 
-* See [Are IPR commitments in place?](https://www.w3.org/guide/process/cg-transition.html#are-ipr-commitments-in-place) when requesting publication on the Rec Track and in particular listing contributors via [GitHub tooling for specs](https://www.w3.org/guide/process/cg-transition.html#github-repository-management).
+* See [Are IPR commitments in place?](https://www.w3.org/guide/process/cg-transition.html#are-ipr-commitments-in-place) when requesting publication on the Rec Track.
 
 It is important that participants be aware of how IPR flows when the Specification is transferred to a W3C Working Group or another SDO.
 
@@ -91,7 +91,7 @@ Under the CLA, Contributors also agree that if the CG Specification is taken up 
 
 The CLA does not include similar provisions for transfers to other standards bodies. This means that standards bodies that wish to take up a CG Specification for standardization need to secure new copyright and patent licenses from (at least significant) Contributors. 
 
-This means that the other SDO will want to identify the significant contributors to the CG Specification. The W3C staff can help identify significant Contributors to a CG Specification (through tooling), but typically the editor(s) of a CG Specification and Chairs have a good sense of who contributes text to a Specification.
+This means that the other SDO will want to identify the significant contributors to the CG Specification. The W3C staff can help identify significant Contributors to a CG Specification (through [tooling](https://www.w3.org/guide/process/cg-transition.html#github-repository-management)), but typically the editor(s) of a CG Specification and Chairs have a good sense of who contributes text to a Specification.
 
 * Enhancement in development: It has been suggested that the CLA be modified so that other SDOs who may take up the CG Specification for standardization do not need to secure new licensing commitments from Contributors. The staff expect to discuss this topic with the W3C Patents and Standards Interest Group.
 
