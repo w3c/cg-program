@@ -49,7 +49,7 @@ In order for an individual to participate in a Working Group under this policy, 
 
 Through this policy, W3C acknowledges that the Web community has benefited from voluntary contributions to Community Group specifications.
 
-An individual invited to a Working Group under this policy is therefore not required to pay a fee. The individual's primary employer (or other relevant entity) is not required to become a W3C Member (but, of course, is welcome to join).
+An individual invited to a Working Group under this policy is therefore not required to pay a fee. The individual's primary employer (or other relevant entity) is not required to become a W3C Member (but, of course, is welcome to join as a paying Member).
 
 ## Experiment
 
@@ -72,6 +72,8 @@ We propose to conduct an experiment to test the following hypothesis:
 ### IPR commitments
 
 We will rely on the existing [Invited Expert agreement](https://www.w3.org/invited-experts/agreement-2023/) and simply ask organizations to make organizational patent commitments (e.g., via email acknowledgment).
+
+> Note: Parties who want to make an IPR commitment over a W3C Working Group specification without joining the Working Group may do so, but the details are outside the scope of this policy.
 
 ## Future implementation considerations
 
