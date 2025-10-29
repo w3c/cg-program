@@ -62,6 +62,8 @@ Groups may wish to take different approaches to versioning. We should support a 
 It will be useful to communicate to readers:
 
 * Within a given version, when a more recent snapshot is available.
+* When a version has been transferred or abandoned, we will update
+documents to inform readers.
 * When multiple versions exist, when a more recent version is available.
 
 We expect to prioritize the first situation in the revamp project.
