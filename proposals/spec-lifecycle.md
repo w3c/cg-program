@@ -92,7 +92,7 @@ The group encourages experimental implementation and feedback (or "not yet").
 This technology is experimental and **will** change. 
 
 * **Experimentation status**. Whether it is a good time to experiment with the technology (or not).
-* **Known adoptions**. Identify known pilots or experiments, examples of real-world deployments.
+* **Known adopter interest**. Identify known pilots or experiments, examples of real-world deployments or expressions of interests to use the relevant feature.
 * **Patent licensing commitments**. Typically determined by CLA, but will differ if spec was part of a call for final specification commitments.
 
 ### Standardization plan
