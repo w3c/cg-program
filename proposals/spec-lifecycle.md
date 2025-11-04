@@ -50,23 +50,18 @@ We seek to communicate specification status to these audiences:
    * Meaning: The CG has stopped work on the document, either by explicitly abandoning the work, or simply no longer working on it. The status section of the document explains the context for the abandonment.
 * **Transferred** 
    * Meaning: Transferred for more development; no longer in development in this CG. May be in development or standardization elsewhere. The status section of the document should explains the context for the transfer.
-   
-### Version management
 
-Groups may wish to take different approaches to versioning. We should support a variety of approaches, as long as we can communicate version information clearly. Some examples of versioning approaches:
+### Living documents v snapshots
 
-* Living specification. There is only ever one specifiation and one version of the specification.
-* Series of snapshots of a given version. Typically each snapshot is identified with a URL, and there is a second URL to identify the latest specification in the series. One reason for a snapshot is for IPR considerations.
-* Multiple versions, each version identified with a URL. 
+Groups generally publish living documents, meaning they make changes in place (at the same URL).
 
-It will be useful to communicate to readers:
+There are situations (e.g., related to IPR) where it is useful or necessary to create snapshots of a document with the expectation
+that no substantive changes will be made over time at that URL. 
 
-* Within a given version, when a more recent snapshot is available.
-* When a version has been transferred or abandoned, we will update
-documents to inform readers.
-* When multiple versions exist, when a more recent version is available.
+It will be useful to communicate to readers when they are looking at a snapshot versus a living document.
 
-We expect to prioritize the first situation in the revamp project.
+**Note**: For groups with different levels or versions of specifications, it will also be useful to communicate
+to readers when a new level or version is available.
 
 ## Circumstances
 
