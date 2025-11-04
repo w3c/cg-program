@@ -63,11 +63,11 @@ It will be useful to communicate to readers when they are looking at a snapshot 
 **Note**: For groups with different levels or versions of specifications, it will also be useful to communicate
 to readers when a new level or version is available.
 
-## Circumstances
+## Status signals
 
-Circumstances are likely to come from both curated sources and metadata already managed in other venues.
+### Version management
 
-**Note:** We are also discussing standardization plan metadata, and all the curated data may end up in once place.
+Status signals are likely to come from both curated sources and metadata already managed in other venues.
 
 ### Development status
 
@@ -94,12 +94,12 @@ This technology is experimental and **will** change.
 
 This is **not** a W3C standard. Standardization plans:
 
-* **Plans**.  We are developing separately ideas for metadata to describe standardization plans (e.g., if plan to standardize, what venue and on what schedule); whether that data lives in a separate document or is part of other circumstances data remains to be seen.
+* **Plans**.  We are developing separately ideas for metadata to describe standardization plans (e.g., if plan to standardize, what venue and on what schedule); whether that data lives in a separate document or is part of other status signals data remains to be seen.
 * **Revision management**. Does the CG work on new versions only? Does it provide input to a standards group on an ongoing basis? Note: This information is only necessary for the stage "transferred".
 
 ## Detailed information
 
-This information might appear after the "top line" circumstances (e.g., in expandable UX).
+This information might appear after the "top line" status signals (e.g., in expandable UX).
 
 ### Implementations
 
@@ -128,6 +128,6 @@ We foresee a list of implementation blocks. For each block:
 
 ## Usage Guidance
 
-* Reports (and repos) should include usage guidance that depend on the status and circumstances. It might be interesting to see if we can generate the usage guidance systematically for each combination of status and circumstance.
+* Reports (and repos) should include usage guidance that depend on the maturity level and status signals. It might be interesting to see if we can generate the usage guidance systematically for each combination of maturity level and status signals.
    * Standardization expectation = “intent => This specification appears to be gaining traction and the CG has indicated an intent to advance to standardization. We recommend checking periodically to see whether the specification has been transferred to a group for standardization.”
 
