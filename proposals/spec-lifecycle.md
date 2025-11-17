@@ -50,29 +50,24 @@ We seek to communicate specification status to these audiences:
    * Meaning: The CG has stopped work on the document, either by explicitly abandoning the work, or simply no longer working on it. The status section of the document explains the context for the abandonment.
 * **Transferred** 
    * Meaning: Transferred for more development; no longer in development in this CG. May be in development or standardization elsewhere. The status section of the document should explains the context for the transfer.
-   
+
+### Living documents v snapshots
+
+Groups generally publish living documents, meaning they make changes in place (at the same URL).
+
+There are situations (e.g., related to IPR) where it is useful or necessary to create snapshots of a document with the expectation
+that no substantive changes will be made over time at that URL. 
+
+It will be useful to communicate to readers when they are looking at a snapshot versus a living document.
+
+**Note**: For groups with different levels or versions of specifications, it will also be useful to communicate
+to readers when a new level or version is available.
+
+## Status signals
+
 ### Version management
 
-Groups may wish to take different approaches to versioning. We should support a variety of approaches, as long as we can communicate version information clearly. Some examples of versioning approaches:
-
-* Living specification. There is only ever one specifiation and one version of the specification.
-* Series of snapshots of a given version. Typically each snapshot is identified with a URL, and there is a second URL to identify the latest specification in the series. One reason for a snapshot is for IPR considerations.
-* Multiple versions, each version identified with a URL. 
-
-It will be useful to communicate to readers:
-
-* Within a given version, when a more recent snapshot is available.
-* When a version has been transferred or abandoned, we will update
-documents to inform readers.
-* When multiple versions exist, when a more recent version is available.
-
-We expect to prioritize the first situation in the revamp project.
-
-## Circumstances
-
-Circumstances are likely to come from both curated sources and metadata already managed in other venues.
-
-**Note:** We are also discussing standardization plan metadata, and all the curated data may end up in once place.
+Status signals are likely to come from both curated sources and metadata already managed in other venues.
 
 ### Development status
 
@@ -92,19 +87,19 @@ The group encourages experimental implementation and feedback (or "not yet").
 This technology is experimental and **will** change. 
 
 * **Experimentation status**. Whether it is a good time to experiment with the technology (or not).
-* **Known adoptions**. Identify known pilots or experiments, examples of real-world deployments.
+* **Known adopter interest**. Identify known pilots or experiments, examples of real-world deployments or expressions of interests to use the relevant feature.
 * **Patent licensing commitments**. Typically determined by CLA, but will differ if spec was part of a call for final specification commitments.
 
 ### Standardization plan
 
 This is **not** a W3C standard. Standardization plans:
 
-* **Plans**.  We are developing separately ideas for metadata to describe standardization plans (e.g., if plan to standardize, what venue and on what schedule); whether that data lives in a separate document or is part of other circumstances data remains to be seen.
+* **Plans**.  We are developing separately ideas for metadata to describe standardization plans (e.g., if plan to standardize, what venue and on what schedule); whether that data lives in a separate document or is part of other status signals data remains to be seen.
 * **Revision management**. Does the CG work on new versions only? Does it provide input to a standards group on an ongoing basis? Note: This information is only necessary for the stage "transferred".
 
 ## Detailed information
 
-This information might appear after the "top line" circumstances (e.g., in expandable UX).
+This information might appear after the "top line" status signals (e.g., in expandable UX).
 
 ### Implementations
 
@@ -133,6 +128,6 @@ We foresee a list of implementation blocks. For each block:
 
 ## Usage Guidance
 
-* Reports (and repos) should include usage guidance that depend on the status and circumstances. It might be interesting to see if we can generate the usage guidance systematically for each combination of status and circumstance.
+* Reports (and repos) should include usage guidance that depend on the maturity level and status signals. It might be interesting to see if we can generate the usage guidance systematically for each combination of maturity level and status signals.
    * Standardization expectation = “intent => This specification appears to be gaining traction and the CG has indicated an intent to advance to standardization. We recommend checking periodically to see whether the specification has been transferred to a group for standardization.”
 
