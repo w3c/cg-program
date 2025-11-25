@@ -4,8 +4,6 @@ Status:  This is a draft with no standing. Questions? Raise issues in this repo 
 See also the AB [Priority Project on Incubation](https://www.w3.org/wiki/AB/2024_Priorities#Incubation) & 
 [white paper on incubation (Member-only)](https://github.com/w3c/AB-memberonly/blob/main/documents/Incubation.md), [Recommendation Track Readiness Best Practices](https://www.w3.org/guide/standards-track/), and the existing [CG transition guide](https://www.w3.org/guide/process/cg-transition.html).
 
-In the future we may turn this into a checklist to be completed as input from CG Chairs to a conversation with staff.
-
 ## Introduction
 
 It is a goal of the Community Group program that specifications with traction advance to a standardization process, either within W3C or another SDO. The W3C staff seeks to support Community Groups as soon as they begin to contemplate standardization. We document here common questions and considerations when transferring a CG Specification for standardization.
@@ -39,7 +37,7 @@ It is a goal of the Community Group program that specifications with traction ad
 
 ### Intellectual property
 
-* Has the group called for [Final Specification](https://www.w3.org/community/about/process/final/) commitments?
+* Does the group plan to call for [Final Specification](https://www.w3.org/community/about/process/final/) commitments (which may be useful but is not required before a transfer)?"
 * Are there any known IPR issues related to the CG Specification?
 * Are you using the IPR checker on your repos?
 
@@ -91,9 +89,7 @@ Under the CLA, Contributors also agree that if the CG Specification is taken up 
 
 The CLA does not include similar provisions for transfers to other standards bodies. This means that standards bodies that wish to take up a CG Specification for standardization need to secure new copyright and patent licenses from (at least significant) Contributors. 
 
-This means that the other SDO will want to identify the significant contributors to the CG Specification. The W3C staff can help identify significant Contributors to a CG Specification (through [tooling](https://www.w3.org/guide/process/cg-transition.html#github-repository-management)), but typically the editor(s) of a CG Specification and Chairs have a good sense of who contributes text to a Specification.
-
-* Enhancement in development: It has been suggested that the CLA be modified so that other SDOs who may take up the CG Specification for standardization do not need to secure new licensing commitments from Contributors. The staff expect to discuss this topic with the W3C Patents and Standards Interest Group.
+This means that the other SDO may need to identify the significant contributors to the CG Specification. The W3C staff can help identify significant Contributors to a CG Specification (through [tooling](https://www.w3.org/guide/process/cg-transition.html#github-repository-management)), but typically the editor(s) of a CG Specification and Chairs have a good sense of who contributes text to a Specification.
 
 It is also useful to consider the following IPR topics:
 
