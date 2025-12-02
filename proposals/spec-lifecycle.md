@@ -120,6 +120,8 @@ We foresee a list of implementation blocks. For each block:
 * Status information is specified in a file in the specification repo. It should be easy to determine the last modified date of that file.
 * The status information is surfaced in the specification (at least).
    * Integrate into respec and bikeshed
+   * for snapshots, the status is the one set at time of publication
+   * for live documents, by default it is the one set of a time of publication, but we expect there will be a (JavaScript) mechanism that allows to mark documents as abandoned/transferred via data under W3C's control, to be used when the live doc does not reflect the real status of the spec and can't be otherwise updated (e.g. no one active with write access to the repo)
 * Editors are responsible for maintaining the data.
 * Nice to have: notification of status changes.
 * Tools can monitor status information and report findings, such as:
