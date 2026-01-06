@@ -63,6 +63,17 @@ It will be useful to communicate to readers when they are looking at a snapshot 
 **Note**: For groups with different levels or versions of specifications, it will also be useful to communicate
 to readers when a new level or version is available.
 
+### Progress bar
+
+During a TPAC 2025 breakout sessions regarding clear communication about CG Specification status, there were suggestions for a "progress bar" to help readers understand the relative maturity of a Draft Specification. As of January 2026, the staff is working on such a progress bar that would leverage some of the status signals described in the next section. Specifically, the progress bar is likely to reflect the following:
+
+* Early in the the lifecycle
+* Experimentation implementation available
+* Standardization plans available
+
+The progress bar would also reflect the end maturity level, whether Transferred or Abandoned.
+
+
 ## Status signals
 
 ### Version management
