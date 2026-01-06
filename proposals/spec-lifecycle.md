@@ -69,19 +69,18 @@ to readers when a new level or version is available.
 
 Status signals are likely to come from both curated sources and metadata already managed in other venues.
 
-### Development status
+### Specification development status
 
 * **Group status**. Typically managed through W3C database (e.g., group open, closed, or dormant)
 * **Community support**. Is there strong support for the specification? Strong opposition? Alternative proposals?
 * **Specification stability**. Indicate community expectation for specification stability. Would significant changes disrupt the ecosystem of the Specification (e.g., in terms of adoption or references)? One specific use case is to send a "last call" stability signal. Could include "last modified" date here or in details section.
-* **Implementer participation**. Are potential implementers of the specification participating in its development?
 
-### Implementer guidance
+### Implementation information and guidance
 
 The group encourages experimental implementation and feedback (or "not yet").
 
+* **Implementation traction**. Are potential implementers of the specification participating in its development? Are there experimental implementations or plans? Determined from announcements of intent to prototype, implement, ship; automated detection of shipping features.
 * **Test suite**. URL to tests or 'None'
-* **Implementation traction**. Determined from announcements of intent to prototype, implement, ship; automated detection of shipping features.
 
 ### Adopter guidance
 This technology is experimental and **will** change. 
