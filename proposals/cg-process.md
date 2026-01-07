@@ -174,8 +174,8 @@ When a Community Group incubates a specification, they should have an eye toward
 The maturity stages in the lifecycle of a Community Group Specification are:
 
 * **Draft**: The Specification is in development in a Community Group.
-* **Snapshot**: This particular version of the Specification will not change. The label "snapshot" on its own does not indicate whether this is a stable version of the Specification that is actively in use and may still be in development, or a snapshot of the Specification that has been abandoned and is not in use. Critical details about the status of the work are found in the Specification.
-* **Transferred**: This Specification is no longer in development in this Community Group. It has been transferred to a standardization activity and that activity should be consulted for the latest status.
+* **Abandoned**: The CG has stopped work on the document, either by explicitly abandoning the work, or simply no longer working on it. The status section of the document explains the context for the abandonment.
+* **Transferred**: This Specification is no longer in development in this Community Group. It may be in development or standardization elsewhere. The status section of the document should explains the context for the transfer.
 
 #### Publication
 
