@@ -87,9 +87,9 @@ Under the CLA, Contributors also agree that if the CG Specification is taken up 
 
 #### Other SDO Considerations
 
-The CLA does not include similar provisions for transfers to other standards bodies. This means that standards bodies that wish to take up a CG Specification for standardization need to secure new copyright and patent licenses from (at least significant) Contributors. 
+Receiving SDOs should review the W3C Community Contributor License Agreement to determine what they need in terms of copyright and patent licenses from Contributors. 
 
-This means that the other SDO may need to identify the significant contributors to the CG Specification. The W3C staff can help identify significant Contributors to a CG Specification (through [tooling](https://www.w3.org/guide/process/cg-transition.html#github-repository-management)), but typically the editor(s) of a CG Specification and Chairs have a good sense of who contributes text to a Specification.
+The W3C staff can help identify significant Contributors to a CG Specification (through [tooling](https://www.w3.org/guide/process/cg-transition.html#github-repository-management)), but typically the editor(s) of a CG Specification and Chairs have a good sense of who contributes text to a Specification.
 
 It is also useful to consider the following IPR topics:
 
