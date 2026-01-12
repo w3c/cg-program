@@ -79,6 +79,8 @@ CG Chairs are also encouraged to familiarize themselves with the [W3C Process fo
 
 It is important that participants be aware of how IPR flows when the Specification is transferred to a W3C Working Group or another SDO.
 
+Note: This document is informative only; please consult W3C IPR policies for authoritative information.
+
 #### W3C Considerations
 
 CG participants agree to the terms of the [Contributor Licensing Agreement (CLA)](https://www.w3.org/community/about/process/cla/) for Specifications developed by the CG. Contributors to a Specification agree to license (“perpetual, worldwide, non-exclusive, no-charge, royalty-free”) their Contributions to parties who make use of those Contributions as part of implementing the Specification.
