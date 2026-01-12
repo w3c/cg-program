@@ -37,7 +37,7 @@ It is a goal of the Community Group program that specifications with traction ad
 
 ### Intellectual property
 
-* Does the group plan to call for [Final Specification](https://www.w3.org/community/about/process/final/) commitments (which may be useful but is not required before a transfer)?"
+* Does the group plan to call for [Final Specification](https://www.w3.org/community/about/process/final/) commitments. W3C does not require Final Specification commitments before a transfer to a W3C Working Group.
 * Are there any known IPR issues related to the CG Specification?
 * Are you using the IPR checker on your repos?
 
