@@ -45,11 +45,11 @@ We seek to communicate specification status to these audiences:
 ## Maturity stages
 
 * **Draft**
-   * Meaning: In development in this Community Group.
+   * Meaning: A Community Group is currently working on the specification.
 * **Abandoned**
-   * Meaning: The CG has stopped work on the document, either by explicitly abandoning the work, or simply no longer working on it. The status section of the document explains the context for the abandonment.
+   * Meaning: No Community Group is currently working on the specification and W3C is not aware that the specification is under development elsewhere. The status section of the document explains the context.
 * **Transferred** 
-   * Meaning: Transferred for more development; no longer in development in this CG. May be in development or standardization elsewhere. The status section of the document should explains the context for the transfer.
+   * Meaning: No Community Group is currently working on the specification and it has been transferred elsewhere for more development or standardization. The status section of the document explains the context.
 
 ### Living documents v snapshots
 
