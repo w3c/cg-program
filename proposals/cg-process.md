@@ -173,9 +173,9 @@ When a Community Group incubates a specification, they should have an eye toward
 
 The maturity stages in the lifecycle of a Community Group Specification are:
 
-* **Draft**: The Specification is in development in a Community Group.
-* **Abandoned**: The CG has stopped work on the document, either by explicitly abandoning the work, or simply no longer working on it. The status section of the document explains the context for the abandonment.
-* **Transferred**: This Specification is no longer in development in this Community Group. It may be in development or standardization elsewhere. The status section of the document should explains the context for the transfer.
+* **Draft**: A Community Group is currently working on the specification.
+* **Unmaintained**: No Community Group is currently working on the specification and W3C is not aware that the specification is under development elsewhere. The status section of the document explains the context.
+* **Transferred**: No Community Group is currently working on the specification and it has been transferred elsewhere for more development or standardization. The status section of the document explains the context.
 
 #### Publication
 

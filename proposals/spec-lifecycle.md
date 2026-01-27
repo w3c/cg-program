@@ -13,7 +13,7 @@ The full life cycle of _W3C Working Group specifications_ has grown more complex
 * W3C endorsement signals:
    * W3C as an organization endorses the work.
    * W3C has rescinded such endorsement.
-   * The work has been abandoned prior to endorsement.
+   * The work is no longer maintained, and is without endorsement.
 
 For _Community Group specifications_, we have historically only identified two stages:
 
@@ -46,7 +46,7 @@ We seek to communicate specification status to these audiences:
 
 * **Draft**
    * Meaning: A Community Group is currently working on the specification.
-* **Abandoned**
+* **Unmaintained**
    * Meaning: No Community Group is currently working on the specification and W3C is not aware that the specification is under development elsewhere. The status section of the document explains the context.
 * **Transferred** 
    * Meaning: No Community Group is currently working on the specification and it has been transferred elsewhere for more development or standardization. The status section of the document explains the context.
@@ -71,7 +71,7 @@ During a TPAC 2025 breakout sessions regarding clear communication about CG Spec
 * Experimentation implementation available
 * Standardization plans available
 
-The progress bar would also reflect the end maturity level, whether Transferred or Abandoned.
+The progress bar would also reflect the end maturity level, whether Transferred or Unmaintained.
 
 
 ## Status signals
@@ -131,7 +131,7 @@ We foresee a list of implementation blocks. For each block:
 * The status information is surfaced in the specification (at least).
    * Integrate into respec and bikeshed
    * for snapshots, the status is the one set at time of publication
-   * for live documents, by default it is the one set of a time of publication, but we expect there will be a (JavaScript) mechanism that allows to mark documents as abandoned/transferred via data under W3C's control, to be used when the live doc does not reflect the real status of the spec and can't be otherwise updated (e.g. no one active with write access to the repo)
+   * for live documents, by default it is the one set of a time of publication, but we expect there will be a (JavaScript) mechanism that allows to mark documents as unmaintained/transferred via data under W3C's control, to be used when the live doc does not reflect the real status of the spec and can't be otherwise updated (e.g. no one active with write access to the repo)
 * Editors are responsible for maintaining the data.
 * Nice to have: notification of status changes.
 * Tools can monitor status information and report findings, such as:
