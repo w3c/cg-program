@@ -20,7 +20,7 @@ This document governs participation in W3C Community Groups. For information abo
 
 ## Summary
 
-Since 2011, the W3C Community Group program has hosted discussions about Web innovations and supported incubation of new technologies. Community Group Specifications are not W3C standards or part of W3C's standardization agenda, but Community Group Specifications that gain traction often do advance to [standardization at W3C](https://www.w3.org/policies/process/) or in other standards bodies. This document defines the processes that govern the creation and operation of Community Groups. In addition to this document, the following policies govern other aspects of participation in Community Groups:
+Since 2011, the W3C Community Group program has hosted discussions about innovations for the Web and supported incubation of new technologies. Although Community Group Specifications are not W3C standards or part of W3C's standardization agenda, Community Group Specifications that gain traction often do advance to [standardization at W3C](https://www.w3.org/policies/process/) or in other standards bodies. This document defines the processes that govern the creation and operation of Community Groups. In addition to this document, the following policies govern other aspects of participation in Community Groups:
 
 * [W3C Code of Conduct](https://www.w3.org/policies/code-of-conduct/)
 * [W3C Antitrust and competition policy](https://www.w3.org/policies/antitrust-2024/)
