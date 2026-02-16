@@ -2,7 +2,7 @@
 
 As part of the [revamp project](..), W3C is developing new styles for CG Specifications. 
 
-To provide feedback, please use the [CG Program issues list][https://github.com/w3c/cg-program/issues) with label "Spec style feedback."
+To provide feedback, please use the [CG Program issues list](https://github.com/w3c/cg-program/issues) with label "Spec style feedback."
 
 ## February 2026 mockups
 
