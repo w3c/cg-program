@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>A CG Specification</title>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="https://www.w3.org/StyleSheets/TR/2021/base.css" rel="stylesheet">
+    <style>
+        /**
+        Styles from Studio 24
+         */
+
+        html {
+            scroll-behavior: smooth;
+            /* Default scroll-padding for space above an anchor link on scroll */
+            scroll-padding-top: 3rem;
+        }
+
+        /* Set background colour for CG Reports */
+        body {
+            background-color: #fffff0;
+        }
+
+        /* Add a bit of space between bottom of link text and the underline */
+        a[href] {
+            text-underline-offset: 0.25em;
+        }
+
+        /* Table of contents: CG colours for sidebar version */
+        body.toc-sidebar #toc {
+            background-color: #035e7c;
+        }
+        body.toc-sidebar #toc h2 {
+            color: #bfe6ff;
+        }
+        @media screen and (min-width: 78em) {
+            .toc a {
+                color: white;
+                text-decoration-color: #76d1fe;
+                padding: 0.25em;
+            }
+            /* a:visited, a:hover, a:focus, a:active */
+            .toc a:visited {
+                color: #ebffff;
+            }
+            .toc a:hover, .toc a:active {
+                color: black;
+                background-color: #ebffff;
+            }
+        }
+
+        /* Style generic .box class */
+        .box {
+             /* Default colour: white */
+            --_box-bg-clr: var(--box-bg-clr, white);
+            --_box-border-clr: var(--box-border-clr, #8d8d87);
+            
+            background-color: var(--_box-bg-clr);
+            border: 3px solid var(--_box-border-clr);
+            margin-block: 1em;
+            padding: 20px;
+            page-break-inside: avoid;
+            border-radius: 0.5rem;
+        }
+        .box > *:first-child {
+            margin-block-start: 0
+        }
+        .box > *:last-child {
+            margin-block-end: 0
+        }
+        /* no top margin for the first box on the page */
+        .box:first-of-type {
+            margin-block-start: 0; 
+        }
+        /* Less margins for consecutive boxes and those following responsive tables */
+        .box + .box, .table-wrap + .box {
+            margin-block-start: 1rem;
+        }
+        
+        /* Colours for different .box variants */
+        /* yellow */
+        .box--information {
+            --box-bg-clr: #fff5bd;
+            --box-border-clr: #9b8f00;
+        }
+        /* red */
+        .box--warning {
+            --box-bg-clr: #fef1f0;
+            --box-border-clr: #8a2e15; 
+        }
+        .box--warning h2 {
+            color: black;
+        }
+        /* green */
+        .box--beta {
+            --box-border-clr: #2dc156;
+            --box-bg-clr: #d6fedc;
+        }
+        .box--beta * {
+            color: black;
+        }        /* CG report blue header box */
+        .box--CG-header {
+            --box-border-clr: #023e53;
+            --box-bg-clr: #035e7c;
+            color: white;
+        }
+        .box--CG-header a {
+            color: white;
+            text-decoration-color: #76d1fe;
+        }
+        .box--CG-header a:visited, .box--CG-header a:hover, .box--CG-header a:focus, .box--CG-header a:active {
+            color: #bfe6ff;
+        }
+        .box--CG-header hr {
+            color: #023e53;
+        }
+        .box--CG-header h1, .box--CG-header h2, .box--CG-header h3 {
+            color: white;
+        }
+        .box--CG-header h2#subtitle {
+            margin-block-end: 0;
+        }
+        .box--CG-header h2 + h3 {
+            margin-top: 1rem;
+        }
+        
+        /* Maturity meter styles */
+        .meter-label {
+            margin-top: 0.5rem;
+            margin-bottom: -1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        /* no labels for small screens */
+        @media only screen and (max-width: 500px) {
+            .meter-label {
+                display: none;
+            }
+        }
+        meter#maturity-level {
+            width: 100%;
+            height: 2.5rem;
+            margin-top: 1rem;
+            margin-bottom: 0.75rem;
+            border-radius: 1rem;
+            border: solid 2px #333;
+            box-shadow: 0 4px 4px -4px #000 inset;
+        }       
+        /* Colour gradients for each % value */
+        /* 5% */
+        meter#maturity-level[value="5"] {
+            background-image: linear-gradient( 90deg, #fb4d59 5%, #333 5%, #333 5.5%, #bdbdbd 5%);
+        }
+        /* 33% */
+        meter#maturity-level[value="33"] {
+            background-image: linear-gradient( 90deg, #fb4d59 33%, #333 33%, #333 33.5%, #bdbdbd 33%);
+        }
+        /* 66% */
+        meter#maturity-level[value="66"] {
+            background-image: linear-gradient( 90deg, #fb4d59 5%, #f1c02b 66%, #333 66%, #333 66.5%, #bdbdbd 66%);
+        }
+        /* 80% */
+        meter#maturity-level[value="80"] {
+            background-image: linear-gradient( 90deg, #fb4d59 5%, #f1c02b 35%, #23c23e 80%, #333 80%, #333 80.5%, #bdbdbd  80%);
+        }
+
+        /* Hide the browser meter gauges */
+        meter#maturity-level::-webkit-meter-bar {
+            display: none;
+        }
+        meter#maturity-level::-moz-meter-bar {
+            background: none;
+        }
+
+        /* Usage guidance table */
+        .box table {
+            background-color: #f4f5ea;
+            border-collapse: collapse;
+            inline-size: 100%;
+            margin-bottom: 1rem;
+            border: solid 2px #8d8d87;
+        }
+                    /* Link states */
+        .box table a:visited, 
+        .box table a:hover, 
+        .box table a:focus,
+        .box table a:active {
+            text-decoration-color: black;
+        }
+        /* Warning red colourway for usage guidance tables */
+        .box.box--warning table {
+            background-color: #fbd8d4;
+            border-color: #8a2e15;
+        }
+
+        .box *:where(caption, td, th) {
+            border: 1px solid #8d8d87;
+            padding: .25em;
+        }
+        /* Warning red colourway for usage guidance tables */
+        .box.box--warning *:where(caption, td, th) {
+            border-color: #8a2e15;
+        }
+
+        .box *:where(td, th) {
+            vertical-align: text-top;
+        }
+
+        .box th {
+            inline-size: 30%;
+            padding: 0.5rem;
+        }
+
+        .box td {
+            inline-size: 70%;
+            padding: 0.5rem;
+        }
+
+        .box td p {
+            margin: 0;
+        }
+
+        .box td p + p {
+            margin-block-start: .5em
+        }
+        .box caption {
+            text-align: left;
+            font-size: 115%;
+            font-style: normal;
+            padding: 0.5rem;
+            border: none;
+        }
+
+        summary {
+            color: var(--heading-text);
+            text-decoration: underline;
+            font-weight: normal;
+        }
+        summary + .table-wrap {
+            margin-top: 1rem;
+        }
+
+        /* Responsive (scrolling) table styles */
+        @media screen {
+            .table-wrap {
+                overflow: auto;
+            }
+        }
+
+        /* Sticky announcement bar */        
+        #announcement-bar {
+            position: sticky;
+            top: 0; /* needed, otherwise it won't stick */
+            z-index: 10;
+            box-shadow: 0 0.25em 0.5em 0 rgb(52 3 4/ 25%);
+        }
+
+        button#announcement-dismiss {
+            color:white;
+            font-size: 1rem;
+            background-color: #615900;
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.5rem;
+            border-color: transparent;
+            cursor: pointer;
+        }
+        button#announcement-dismiss:hover,
+        .box--warning button#announcement-dismiss:hover {
+            background-color: black;
+        }
+        /* warning - red colourway */
+        .box--warning button#announcement-dismiss {
+            background-color: #8a2e15;
+        }
+
+        /* When the dismiss button has been pressed, hide the announcement from everyone */
+        #announcement-bar:has(button#announcement-dismiss[aria-pressed="true"]) {
+            display: none;
+        }
+
+        @media print {
+            #announcement-dismiss,
+            .meter-label,
+            meter {
+                display: none !important;
+            }
+            .box > *,
+            .box a
+            {
+                color: black !important;
+            }
+        }
+
+    </style>
+</head>
+<body class="h-entry">
+    <header>
+        <div class="box box--beta">
+            <h2>This is a Beta design</h2>
+            <p>We are trying some changes to Community Group Specification template to improve clarity about specification status and usage.</p>
+            <p>If you have any comments on this design please email <a href="mailto:hello@w3c.org">hello@w3c.org</a> or raise a GitHub issue at <a href="#">https://github.com/w3c/something</a></p>
+        </div>
+
+        <div id="announcement-bar" class="box box--information">
+            <p><strong>This is a <a href="#">Community Group incubation</a> and is not on the <a href="#">W3C standards track</a>.</strong> Learn more about <a href="#usage-guidance">usage, implementation, and next steps</a>.</p>
+            <button id="announcement-dismiss" type="button" onclick="stickyAnnouncementDismiss()" aria-pressed="false">Dismiss</button>
+        </div>
+
+        <!-- JavaScript for announcement-bar -->
+        <script>
+                // Get the announcement Bar
+                const announcementBar = document.getElementById("announcement-bar");
+                // Get the dismiss button
+                const announcementDismiss = document.getElementById("announcement-dismiss");
+
+                // On page load the announcement is sticky, so we add scroll padding to the top of the HTML element, so anchor links won't get hidden behind the announcemnet bar.
+                html.style.scrollPaddingTop = "" + (announcementBar.offsetHeight + 48) + "px";
+
+                // Onclick change the aria-pressed value to true, to notify assistive tech of the change and change scrollPaddingTop to a default value
+                function stickyAnnouncementDismiss() {
+                    announcementDismiss.ariaPressed = "true"; // set to true
+                    html.style.scrollPaddingTop = "3rem"; // remove the scrollPaddingTop allowance for the announcement, by reverting to the default value
+                }
+        </script>
+
+        <div class="head box box--CG-header">   
+            <h1>Title of a CG Specification</h1>
+            <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content"><a href>Draft Community Group Report</a></span></h2>
+            <h3><time class="dt-updated" datetime="2025-01-01">1 January 2025</time></h3>
+            <div data-fill-with="spec-metadata">
+                <dl>
+                    <dt>This version:</dt>
+                    <dd><a class="u-url" href="https://example-group.github.io/somecgspec/">https://example-group.github.io/somecgspec/</a></dd>
+                    <dt>Latest version:</dt>
+                    <dd><a href="https://example-group.github.io/latest-cgspec/">https://example-group.github.io/latest-cgspec/</a></dd>
+                    <dt>Version History:</dt>
+                    <dd><a href="https://github.com/example-group/somecgspec/commits/gh-pages">https://github.com/example-group/somecgspec/commits/gh-pages</a>
+                    <dt class="editor">Editor:</dt>
+                    <dd class="editor p-author h-card vcard" data-editor-id=""><a class="p-name fn u-email email" href="mailto:john@doe.com">John Doe</a></dd>
+                    <dt>Participate:</dt>
+                    <dd><a href="https://github.com/example-group/somecgspec/issues/new">File an issue</a> (<a href="https://github.com/example-group/somecgspec/issues">open issues</a>)</dd>
+                    <dt>Relative maturity of the technology:</dt>
+                    <dd>
+                        <div class="meter-label" aria-hidden="true"><span>Inception</span><span>Transfer for standardization</span></div>
+                        <meter aria-hidden="true" id="maturity-level" min="0" max="100" low="34" high="67" optimum="100" value="66">66%</meter>
+                        Maturity score: 66% &mdash; experimental implementation and standarization plans. <a href="#usage-guidance">See usage guidance.</a>
+
+                        <!-- THE 4 METER ALUE EXAMPLES FOR TESTING-->
+                        <!-- <h3>Meter examples of all values (5 / 33 / 66 / 80)</h3>
+
+                        <meter id="maturity-level" min="0" max="100" low="34" high="67" optimum="100" value="5">5%</meter><br>Maturity score: 5% &mdash; early work without experimental implementation. <a href="#usage-guidance">See usage guidance.</a>
+
+                        <meter id="maturity-level" min="0" max="100" low="34" high="67" optimum="100" value="33">33%</meter><br>Maturity score: 33% &mdash; experimental implementation but no standarization plans yet. <a href="#usage-guidance">See usage guidance.</a>
+                        
+                        <meter id="maturity-level" min="0" max="100" low="34" high="67" optimum="100" value="66">66%</meter><br>Maturity score: 66% &mdash; experimental implementation and standarization plans. <a href="#usage-guidance">See usage guidance.</a>
+
+                        <meter id="maturity-level" min="0" max="100" low="34" high="67" optimum="100" value="80">80%</meter><br>Maturity score: 80% &mdash; transferred for standardization. <a href="#usage-guidance">See usage guidance.</a> -->
+                    </dd>
+                </dl>
+            </div>
+            <hr>
+            <p class="copyright" data-fill-with="copyright"><a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2020 the Contributors to the Intervention Reporting Specification, published by the <a href="https://www.w3.org/community/example-group/">Example Community Group</a> under the <a href="https://www.w3.org/community/about/agreements/cla/">W3C Community Contributor License Agreement (CLA)</a>.
+                A human-readable <a href="http://www.w3.org/community/about/agreements/cla-deed/">summary</a> is available. </p>
+        </div>
+        
+        <div class="p-summary" data-fill-with="abstract">
+            <h2 class="no-num no-toc no-ref heading settled" id="abstract"><span class="content">Abstract</span></h2>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+
+        <h2 class="no-num no-toc no-ref heading settled" id="status"><span class="content">Status of this document</span></h2>
+        <div data-fill-with="status">
+            <p>[free-text status information]</p>
+        </div>
+
+        <div class="box">
+            <h2 class="no-num no-toc no-ref heading settled" id="usage-guidance"><span class="content">Usage guidance</span></h2>
+            <ul>
+                <li><strong>This is a <a href="#">Community Group incubation</a> and is not on the <a href="#">W3C standards track</a>.</strong></li>
+                <li>The group encourages experimental implementation and feedback.</li>
+                <li>This technology is experimental and <strong>will</strong> change.</li>
+                <li>This specification appears to be gaining traction and the Community Group has indicated an intent to advance to standardization. We recommend checking periodically to see whether the specification has been transferred to a group for standardization.</li>
+            </ul>
+            <div class="table-wrap" role="region" tabindex="0" aria-labelledby="specification-development-status">
+                <table>
+                    <caption id="specification-development-status">Specification development status</caption>
+                    <tr>
+                        <th scope="row">Community Group status</th>
+                        <td>Open</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Community support</th>
+                        <td>Cras mattis consectetur purus sit amet fermentum.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Specification stability</th>
+                        <td>Donec ullamcorper nulla non metus auctor fringilla.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Last modified</th>
+                        <td>2025-02-15</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table-wrap" role="region" tabindex="0" aria-labelledby="implementation-guidance">
+                <table>
+                    <caption id="implementation-guidance">Implementation information and guidance</caption>
+                    <tr>
+                        <th scope="row">Implementation traction</th>
+                        <td>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Test suite</th>
+                        <td><a href>Link</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table-wrap" role="region" tabindex="0" aria-labelledby="adopter-guidance">
+                <table>
+                    <caption id="adopter-guidance">Adopter guidance</caption>
+                    <tr>
+                        <th scope="row">Experimentation status</th>
+                        <td>Nullam id dolor id nibh ultricies vehicula ut id elit.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Known adopter interest</th>
+                        <td>
+                            <p><a href>Link</a></p>
+                            <p><a href>Link</a></p>
+                            <p><a href>Link</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Patent licensing commitments</th>
+                        <td>Contributor-only</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table-wrap" role="region" tabindex="0" aria-labelledby="standardization-plan">
+                <table>
+                    <caption id="standardization-plan">Standardization plan</caption>
+                    <tr>
+                        <th scope="row">Plans</th>
+                        <td>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Revision management</th>
+                        <td>Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</td>
+                    </tr>
+                </table>
+            </div>
+            <p class="copyright"><strong>Disclaimer:</strong> While W3C strives to ensure the accuracy of status data, we do not guarantee that the information is error-free. Any mention of specific products or services is solely for informational purposes and does not imply endorsement by W3C, Inc. or its Members.</p>
+        </div>
+    </header>
+
+    <nav data-fill-with="table-of-contents" id="toc">
+        <h2 class="no-num no-toc no-ref" id="contents">Table of Contents</h2>
+        <ol class="toc" role="directory">
+            <li class="tocline">
+            <a class="tocxref" href="#abstract">Abstract</a>
+            </li>
+            <li class="tocline">
+            <a class="tocxref" href="#status">Status of this document</a>
+            </li>
+            <li>
+            <li class="tocline">
+            <a class="tocxref" href="#usage-guidance">Usage Guidance</a>
+            </li>
+            <li>
+                <a href="#intro"><span class="secno">1</span> <span class="content">Introduction</span></a>
+                <ol class="toc">
+                    <li><a href="#examples"><span class="secno">1.1</span> <span class="content">Examples</span></a>
+                </ol>
+        </ol>
+    </nav>
+    <main>
+        <section>
+            <h2 class="heading settled" data-level="1" id="intro"><span class="secno">1. </span><span class="content">Introduction</span><a class="self-link" href="#intro"></a></h2>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+            <p>Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor.</p>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <h3 class="heading settled" data-level="1.1" id="examples"><span class="secno">1.1. </span><span class="content">Examples</span><a class="self-link" href="#examples"></a></h3>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui nascetur ridiculus mus:</p>
+            <ul>
+                <li>Duis mollis, est non commodo luctus,</li>
+                <li>Donec sed odio dui,</li>
+                <li>Nullam quis risus eget urna mollis ornare vel eu leo,</li>
+                <li>Etiam porta sem malesuada magna mollis euismod,</li>
+                <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+            </ul>
+        </section>
+    </main>
+    <script>
+        (function() {
+            "use strict";
+            var collapseSidebarText = '<span aria-hidden="true">←</span> '
+                + '<span>Collapse Sidebar</span>';
+            var expandSidebarText   = '<span aria-hidden="true">→</span> '
+                + '<span>Pop Out Sidebar</span>';
+            var tocJumpText         = '<span aria-hidden="true">↑</span> '
+                + '<span>Jump to Table of Contents</span>';
+
+            var sidebarMedia = window.matchMedia('screen and (min-width: 78em)');
+            var autoToggle   = function(e){ toggleSidebar(e.matches) };
+            if(sidebarMedia.addListener) {
+                sidebarMedia.addListener(autoToggle);
+            }
+
+            function toggleSidebar(on) {
+                if (on == undefined) {
+                    on = !document.body.classList.contains('toc-sidebar');
+                }
+
+                /* Don’t scroll to compensate for the ToC if we’re above it already. */
+                var headY = 0;
+                var head = document.querySelector('.head');
+                if (head) {
+                    // terrible approx of "top of ToC"
+                    headY += head.offsetTop + head.offsetHeight;
+                }
+                var skipScroll = window.scrollY < headY;
+
+                var toggle = document.getElementById('toc-toggle');
+                var tocNav = document.getElementById('toc');
+                if (on) {
+                    var tocHeight = tocNav.offsetHeight;
+                    document.body.classList.add('toc-sidebar');
+                    document.body.classList.remove('toc-inline');
+                    toggle.innerHTML = collapseSidebarText;
+                    if (!skipScroll) {
+                        window.scrollBy(0, 0 - tocHeight);
+                    }
+                    tocNav.focus();
+                    sidebarMedia.addListener(autoToggle); // auto-collapse when out of room
+                }
+                else {
+                    document.body.classList.add('toc-inline');
+                    document.body.classList.remove('toc-sidebar');
+                    toggle.innerHTML = expandSidebarText;
+                    if (!skipScroll) {
+                        window.scrollBy(0, tocNav.offsetHeight);
+                    }
+                    if (toggle.matches(':hover')) {
+                        /* Unfocus button when not using keyboard navigation,
+                        because I don’t know where else to send the focus. */
+                        toggle.blur();
+                    }
+                }
+            }
+
+            function createSidebarToggle() {
+                /* Create the sidebar toggle in JS; it shouldn’t exist when JS is off. */
+                var toggle = document.createElement('a');
+                /* This should probably be a button, but appearance isn’t standards-track.*/
+                toggle.id = 'toc-toggle';
+                toggle.class = 'toc-toggle';
+                toggle.href = '#toc';
+                toggle.innerHTML = collapseSidebarText;
+
+                sidebarMedia.addListener(autoToggle);
+                var toggler = function(e) {
+                    e.preventDefault();
+                    sidebarMedia.removeListener(autoToggle); // persist explicit off states
+                    toggleSidebar();
+                    return false;
+                }
+                toggle.addEventListener('click', toggler, false);
+
+
+                /* Get <nav id=toc-nav>, or make it if we don’t have one. */
+                var tocNav = document.getElementById('toc-nav');
+                if (!tocNav) {
+                    tocNav = document.createElement('p');
+                    tocNav.id = 'toc-nav';
+                    /* Prepend for better keyboard navigation */
+                    document.body.insertBefore(tocNav, document.body.firstChild);
+                }
+                /* While we’re at it, make sure we have a Jump to Toc link. */
+                var tocJump = document.getElementById('toc-jump');
+                if (!tocJump) {
+                    tocJump = document.createElement('a');
+                    tocJump.id = 'toc-jump';
+                    tocJump.href = '#toc';
+                    tocJump.innerHTML = tocJumpText;
+                    tocNav.appendChild(tocJump);
+                }
+
+                tocNav.appendChild(toggle);
+            }
+
+            var toc = document.getElementById('toc');
+            if (toc) {
+                createSidebarToggle();
+                toggleSidebar(sidebarMedia.matches);
+
+                /* If the sidebar has been manually opened and is currently overlaying the text
+                (window too small for the MQ to add the margin to body),
+                then auto-close the sidebar once you click on something in there. */
+                toc.addEventListener('click', function(e) {
+                    if(e.target.tagName.toLowerCase() == "a" && document.body.classList.contains('toc-sidebar') && !sidebarMedia.matches) {
+                        toggleSidebar(false);
+                    }
+                }, false);
+            }
+            else {
+                console.warn("Can’t find Table of Contents. Please use <nav id='toc'> around the ToC.");
+            }
+
+            /* Wrap tables in case they overflow */
+            var tables = document.querySelectorAll(':not(.overlarge) > table.data, :not(.overlarge) > table.index');
+            var numTables = tables.length;
+            for (var i = 0; i < numTables; i++) {
+                var table = tables[i];
+                var wrapper = document.createElement('div');
+                wrapper.className = 'overlarge';
+                table.parentNode.insertBefore(wrapper, table);
+                wrapper.appendChild(table);
+            }
+
+        })();
+    </script>
+    <script>/* script-dfn-panel */
+
+    document.body.addEventListener("click", function(e) {
+        var queryAll = function(sel) { return [].slice.call(document.querySelectorAll(sel)); }
+        // Find the dfn element or panel, if any, that was clicked on.
+        var el = e.target;
+        var target;
+        var hitALink = false;
+        while(el.parentElement) {
+            if(el.tagName == "A") {
+                // Clicking on a link in a <dfn> shouldn't summon the panel
+                hitALink = true;
+            }
+            if(el.classList.contains("dfn-paneled")) {
+                target = "dfn";
+                break;
+            }
+            if(el.classList.contains("dfn-panel")) {
+                target = "dfn-panel";
+                break;
+            }
+            el = el.parentElement;
+        }
+        if(target != "dfn-panel") {
+            // Turn off any currently "on" or "activated" panels.
+            queryAll(".dfn-panel.on, .dfn-panel.activated").forEach(function(el){
+                el.classList.remove("on");
+                el.classList.remove("activated");
+            });
+        }
+        if(target == "dfn" && !hitALink) {
+            // open the panel
+            var dfnPanel = document.querySelector(".dfn-panel[data-for='" + el.id + "']");
+            if(dfnPanel) {
+                dfnPanel.classList.add("on");
+                var rect = el.getBoundingClientRect();
+                dfnPanel.style.left = window.scrollX + rect.right + 5 + "px";
+                dfnPanel.style.top = window.scrollY + rect.top + "px";
+                var panelRect = dfnPanel.getBoundingClientRect();
+                var panelWidth = panelRect.right - panelRect.left;
+                if(panelRect.right > document.body.scrollWidth && (rect.left - (panelWidth + 5)) > 0) {
+                    // Reposition, because the panel is overflowing
+                    dfnPanel.style.left = window.scrollX + rect.left - (panelWidth + 5) + "px";
+                }
+            } else {
+                console.log("Couldn't find .dfn-panel[data-for='" + el.id + "']");
+            }
+        } else if(target == "dfn-panel") {
+            // Switch it to "activated" state, which pins it.
+            el.classList.add("activated");
+            el.style.left = null;
+            el.style.top = null;
+        }
+    });
+    </script>
+</body>
+</html>
+
+
+
