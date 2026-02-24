@@ -5,7 +5,7 @@
 * This revision of the process does not mention Business Groups, but that is mostly to focus discussion on Community Groups. This is not meant to imply anything about the future of Business Groups.
 * Dropped the CG Forum (not used for many years)
 * Dropped CG Council because it played no normative role. We should still have a CG Council for those interested in the evolution of CGs.
-* Dropped the use of the word "Report"
+* Replace the use of the word "Report" with "Specification"
 * Dropped details related to specification requirements in this document; instead normatively refer to requirements already documented elsewhere (and which can be updated more easily).
 * Added
   * Explicit mention of other policies governing CGs.
