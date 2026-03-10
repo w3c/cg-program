@@ -83,7 +83,7 @@ Status signals are likely to come from both curated sources and metadata already
 ### Specification development status
 
 * **Group status**. Typically managed through W3C database (e.g., group open, closed, or dormant)
-* **Community support**. Is there strong support for the specification? Strong opposition? Alternative proposals?
+* **Community support**. [Optional] Provide information about (non-implementer) signals of strong support or strong opposition, when available.
 * **Specification stability**. Indicate community expectation for specification stability. Would significant changes disrupt the ecosystem of the Specification (e.g., in terms of adoption or references)? One specific use case is to send a "last call" stability signal. Could include "last modified" date here or in details section.
 
 ### Implementation information and guidance
@@ -105,7 +105,7 @@ This technology is experimental and **will** change.
 This is **not** a W3C standard. Standardization plans:
 
 * **Plans**.  We are developing separately ideas for metadata to describe standardization plans (e.g., if plan to standardize, what venue and on what schedule); whether that data lives in a separate document or is part of other status signals data remains to be seen.
-* **Revision management**. Does the CG work on new versions only? Does it provide input to a standards group on an ongoing basis? Note: This information is only necessary for the stage "transferred".
+* **Revision management**. [Optional] Does the CG work on new versions only? Does it provide input to a standards group on an ongoing basis? Note: This information is only necessary for the stage "transferred".
 
 ## Detailed information
 
