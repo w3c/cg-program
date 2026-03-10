@@ -90,7 +90,7 @@ Status signals are likely to come from both curated sources and metadata already
 
 The group encourages experimental implementation and feedback (or "not yet").
 
-* **Implementation traction**. Are potential implementers of the specification participating in its development? Are there experimental implementations or plans? Determined from announcements of intent to prototype, implement, ship; automated detection of shipping features.
+* **Implementation traction**. Are implementers making substantive contributions to the specification? Are there experimental implementations or plans? Determined from announcements of intent to prototype, implement, ship; automated detection of shipping features.
 * **Test suite**. URL to tests or 'None'
 
 ### Adopter guidance
