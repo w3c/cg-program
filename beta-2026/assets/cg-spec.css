@@ -1,0 +1,284 @@
+/**
+Styles from Studio 24
+ */
+
+html {
+  scroll-behavior: smooth;
+  /* Default scroll-padding for space above an anchor link on scroll */
+  scroll-padding-top: 3rem;
+}
+
+/* Set background colour for CG Reports */
+body {
+  background-color: #fffff0;
+}
+
+/* Add a bit of space between bottom of link text and the underline */
+a[href] {
+  text-underline-offset: 0.25em;
+}
+
+/* Table of contents: CG colours for sidebar version */
+body.toc-sidebar #toc {
+  background-color: #035e7c;
+}
+body.toc-sidebar #toc h2 {
+  color: #bfe6ff;
+}
+@media screen and (min-width: 78em) {
+  .toc a {
+    color: white;
+    text-decoration-color: #76d1fe;
+    padding: 0.25em;
+  }
+  /* a:visited, a:hover, a:focus, a:active */
+  .toc a:visited {
+    color: #ebffff;
+  }
+  .toc a:hover, .toc a:active {
+    color: black;
+    background-color: #ebffff;
+  }
+}
+
+/* Style generic .box class */
+.box {
+  /* Default colour: white */
+  --_box-bg-clr: var(--box-bg-clr, white);
+  --_box-border-clr: var(--box-border-clr, #8d8d87);
+
+  background-color: var(--_box-bg-clr);
+  border: 3px solid var(--_box-border-clr);
+  margin-block: 1em;
+  padding: 20px;
+  page-break-inside: avoid;
+  border-radius: 0.5rem;
+}
+.box > *:first-child {
+  margin-block-start: 0
+}
+.box > *:last-child {
+  margin-block-end: 0
+}
+/* no top margin for the first box on the page */
+.box:first-of-type {
+  margin-block-start: 0; 
+}
+/* Less margins for consecutive boxes and those following responsive tables */
+.box + .box, .table-wrap + .box {
+  margin-block-start: 1rem;
+}
+
+/* Colours for different .box variants */
+/* yellow */
+.box--information {
+  --box-bg-clr: #fff5bd;
+  --box-border-clr: #9b8f00;
+}
+/* red */
+.box--warning {
+  --box-bg-clr: #fef1f0;
+  --box-border-clr: #8a2e15; 
+}
+.box--warning h2 {
+  color: black;
+}
+/* green */
+.box--beta {
+  --box-border-clr: #2dc156;
+  --box-bg-clr: #d6fedc;
+}
+.box--beta * {
+  color: black;
+}        /* CG report blue header box */
+.box--CG-header {
+  --box-border-clr: #023e53;
+  --box-bg-clr: #035e7c;
+  color: white;
+}
+.box--CG-header a {
+  color: white;
+  text-decoration-color: #76d1fe;
+}
+.box--CG-header a:visited, .box--CG-header a:hover, .box--CG-header a:focus, .box--CG-header a:active {
+  color: #bfe6ff;
+}
+.box--CG-header hr {
+  color: #023e53;
+}
+.box--CG-header h1, .box--CG-header h2, .box--CG-header h3 {
+  color: white;
+}
+.box--CG-header h2#subtitle {
+  margin-block-end: 0;
+}
+.box--CG-header h2 + h3 {
+  margin-top: 1rem;
+}
+
+/* Maturity meter styles */
+.meter-label {
+  margin-top: 0.5rem;
+  margin-bottom: -1rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* no labels for small screens */
+@media only screen and (max-width: 500px) {
+  .meter-label {
+    display: none;
+  }
+}
+meter#maturity-level {
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 1rem;
+  border: solid 2px #333;
+  box-shadow: 0 4px 4px -4px #000 inset;
+}       
+/* Colour gradients for each % value */
+/* 5% */
+meter#maturity-level[value="5"] {
+  background-image: linear-gradient( 90deg, #fb4d59 5%, #333 5%, #333 5.5%, #bdbdbd 5%);
+}
+/* 33% */
+meter#maturity-level[value="33"] {
+  background-image: linear-gradient( 90deg, #fb4d59 33%, #333 33%, #333 33.5%, #bdbdbd 33%);
+}
+/* 66% */
+meter#maturity-level[value="66"] {
+  background-image: linear-gradient( 90deg, #fb4d59 5%, #f1c02b 66%, #333 66%, #333 66.5%, #bdbdbd 66%);
+}
+/* 80% */
+meter#maturity-level[value="80"] {
+  background-image: linear-gradient( 90deg, #fb4d59 5%, #f1c02b 35%, #23c23e 80%, #333 80%, #333 80.5%, #bdbdbd  80%);
+}
+
+/* Hide the browser meter gauges */
+meter#maturity-level::-webkit-meter-bar {
+  display: none;
+}
+meter#maturity-level::-moz-meter-bar {
+  background: none;
+}
+
+/* Usage guidance table */
+.box table {
+  background-color: #f4f5ea;
+  border-collapse: collapse;
+  inline-size: 100%;
+  margin-bottom: 1rem;
+  border: solid 2px #8d8d87;
+}
+/* Link states */
+.box table a:visited, 
+.box table a:hover, 
+.box table a:focus,
+.box table a:active {
+  text-decoration-color: black;
+}
+/* Warning red colourway for usage guidance tables */
+.box.box--warning table {
+  background-color: #fbd8d4;
+  border-color: #8a2e15;
+}
+
+.box *:where(caption, td, th) {
+  border: 1px solid #8d8d87;
+  padding: .25em;
+}
+/* Warning red colourway for usage guidance tables */
+.box.box--warning *:where(caption, td, th) {
+  border-color: #8a2e15;
+}
+
+.box *:where(td, th) {
+  vertical-align: text-top;
+}
+
+.box th {
+  inline-size: 30%;
+  padding: 0.5rem;
+}
+
+.box td {
+  inline-size: 70%;
+  padding: 0.5rem;
+}
+
+.box td p {
+  margin: 0;
+}
+
+.box td p + p {
+  margin-block-start: .5em
+}
+.box caption {
+  text-align: left;
+  font-size: 115%;
+  font-style: normal;
+  padding: 0.5rem;
+  border: none;
+}
+
+summary {
+  color: var(--heading-text);
+  text-decoration: underline;
+  font-weight: normal;
+}
+summary + .table-wrap {
+  margin-top: 1rem;
+}
+
+/* Responsive (scrolling) table styles */
+@media screen {
+  .table-wrap {
+    overflow: auto;
+  }
+}
+
+/* Sticky announcement bar */        
+#announcement-bar {
+  position: sticky;
+  top: 0; /* needed, otherwise it won't stick */
+  z-index: 10;
+  box-shadow: 0 0.25em 0.5em 0 rgb(52 3 4/ 25%);
+}
+
+button#announcement-dismiss {
+  color:white;
+  font-size: 1rem;
+  background-color: #615900;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  cursor: pointer;
+}
+button#announcement-dismiss:hover,
+.box--warning button#announcement-dismiss:hover {
+  background-color: black;
+}
+/* warning - red colourway */
+.box--warning button#announcement-dismiss {
+  background-color: #8a2e15;
+}
+
+/* When the dismiss button has been pressed, hide the announcement from everyone */
+#announcement-bar:has(button#announcement-dismiss[aria-pressed="true"]) {
+  display: none;
+}
+
+@media print {
+  #announcement-dismiss,
+  .meter-label,
+  meter {
+    display: none !important;
+  }
+  .box > *,
+  .box a
+  {
+    color: black !important;
+  }
+}
