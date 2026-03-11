@@ -285,9 +285,12 @@ button#announcement-dismiss:hover,
 
   dl.impl { margin: 0;}
   dl.impl div {
-      display: inline-block; border-right: thin solid black; padding: 2px;
+      display: inline-block; border-right: thin solid black; padding: 2px 5px;
   }
   dl.impl div:last-child { border-right: none;}
   dl.impl dd {
       margin: 0;
+  }
+  dl.impl dt {
+      text-align: center;
   }
