@@ -283,14 +283,14 @@ button#announcement-dismiss:hover,
   }
 }
 
-  dl.impl { margin: 0;}
-  dl.impl div {
+  dl.row-data { margin: 0;}
+  dl.row-data div {
       display: inline-block; border-right: thin solid black; padding: 2px 5px;
   }
-  dl.impl div:last-child { border-right: none;}
-  dl.impl dd {
+  dl.row-data div:last-child { border-right: none;}
+  dl.row-data dd {
       margin: 0;
   }
-  dl.impl dt {
+  dl.row-data dt {
       text-align: center;
   }
