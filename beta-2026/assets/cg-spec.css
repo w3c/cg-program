@@ -19,26 +19,26 @@ a[href] {
 }
 
 /* Table of contents: CG colours for sidebar version */
-body.toc-sidebar #toc {
-  background-color: #035e7c;
-}
-body.toc-sidebar #toc h2 {
-  color: #bfe6ff;
-}
-@media screen and (min-width: 78em) {
-  .toc a {
-    color: white;
-    text-decoration-color: #76d1fe;
-    padding: 0.25em;
-  }
-  /* a:visited, a:hover, a:focus, a:active */
-  .toc a:visited {
-    color: #ebffff;
-  }
-  .toc a:hover, .toc a:active {
-    color: black;
-    background-color: #ebffff;
-  }
+body.toc-sidebar {
+    #toc  {
+        background-color: #035e7c;
+    }
+    #toc h2 {
+    color: #bfe6ff;
+    }
+    .toc a {
+        color: white;
+        text-decoration-color: #76d1fe;
+        padding: 0.25em;
+    }
+    /* a:visited, a:hover, a:focus, a:active */
+    .toc a:visited {
+        color: #ebffff;
+    }
+    .toc a:hover, .toc a:active {
+        color: black;
+        background-color: #ebffff;
+    }
 }
 
 /* Style generic .box class */
