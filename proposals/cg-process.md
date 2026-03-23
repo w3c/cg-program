@@ -71,7 +71,7 @@ If scope and standardization plans are not known at the time of the proposal, th
 
 #### Grounds for rejection of a proposal
 
-The Community Development Lead does not formally approve proposals but may reject a proposal for a Community Group when the name or description are likely to cause offense or confusion, appear primarily intended for commercial purposes, are frivolous, or are overly broad.
+The Community Development Lead does not formally approve proposals but may reject a proposal for a Community Group when the name or description are likely to cause offense or confusion (e.g., claims that work is a standard), appear primarily intended for commercial purposes, are frivolous, or are overly broad.
 
 ### Active
 
