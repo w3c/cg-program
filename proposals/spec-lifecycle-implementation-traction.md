@@ -16,7 +16,7 @@ We think the following signals can be attributed to these types of entities to i
 * browser implementers making substantive contributions to the spec
 * browser distributors or browser codebase publishing their "standards position" about the spec - at this stage, Mozilla (an implementer) and WebKit (a codebase) publish standard positions
 * browser codebases being updated with an implementation of the spec
-* browser distributor distributing the said implementation in a restricted fashion (behind a flag, through an origin trial, or in a pre-release version)
-* browser distributors distributing the said implementation in their release version
+* browser distributor distributing the said implementation in a restricted fashion (behind a flag, through an origin trial)
+* browser distributors distributing the said implementation without restrictions
 
 Given existing research about which compatibility data developers use to make decisions about whether or not to adopt a web feature, we propose to start by documenting information matching the [WebDX Community Group core browser set](https://web-platform-dx.github.io/web-features/#how-do-features-become-part-of-baseline%3F), while also supporting documentation of additional browsers, codebases, distributors and implementers.
