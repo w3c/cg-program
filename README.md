@@ -35,12 +35,17 @@ To address the above objectives we are developing a series of proposals, listed 
 
 * [CG Specification Lifecycle](proposals/spec-lifecycle.md)
 * [Community Group Lifecycle](proposals/cg-lifecycle.md)
+* [Describing Implementation Traction](proposals/spec-lifecycle-implementation-traction.md)
 * [Handling standardization ambiguity](proposals/handling-ambiguity.md)
 * [Support for continued participation in a Working Group by CG contributors](proposals/continued-participation.md)
 * [CG Process](proposals/cg-process.md)
+* [Status questions](proposals/status-questions.md)
 
 ### Links to presentations
 
+* [March 2026 beta plan](https://www.w3.org/2026/Talks/beta-plan-20260323.pdf)
+* [February 2026 program update](https://www.w3.org/2026/Talks/cg-update-20260218.pdf)
+* [Breakout at TPAC 2025](https://docs.google.com/presentation/d/1-96YXga4LLRDmWITdUnjjFtnRnftkS0Dk_yJKBeHBgA/edit?slide=id.p#slide=id.p)
 * [AC Meeting 2025](https://www.w3.org/2025/Talks/cg-enhancements-ac2025.pdf) (Member-confidential)
 * [Breakout at AC Meeting 2025](https://www.w3.org/2025/Talks/cg-breakout-ac2025.pdf) (Member-confidential)
 * [Breakout at TPAC 2024](https://www.w3.org/2024/Talks/TPAC/cg-breakout/)
