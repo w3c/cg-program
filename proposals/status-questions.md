@@ -8,9 +8,9 @@ One of the primary goals of the CG revamp project is to clarify communications a
 
 One approach we have taken is to try to make information readily available so that different audiences can readily answer questions they might have. Up to now, we have done this through the following mechanisms:
 
-* Program-level: Through the CG Redesign project we seek to make it much clearer whether a specification is part of the "incubation track" or the "standards track" at W3C.
-* Maturity level: We have enhanced the [CG specification lifecycle](cg-lifecycle.md) to better set expectations about work.
-* Usage guidance: We have added metadata to the status section of each specification to expose information about [implementation traction](spec-lifecycle-implementation-traction.md), adoption, and any known standardization plans.
+* **Program-level**: Through the CG Redesign project we seek to make it much clearer whether a specification is part of the "incubation track" or the "standards track" at W3C.
+* **Maturity level**: We have enhanced the [CG specification lifecycle](cg-lifecycle.md) to better set expectations about work.
+* **Usage guidance**: We have added metadata to the status section of each specification to expose information about [implementation traction](spec-lifecycle-implementation-traction.md), adoption, and any known standardization plans.
 
 While we believe that these mechanisms will help users of CG specifications (which we will validate through the [beta](../beta-2026)), we also believe that there remain opportunities to more directly provide answers to questions from different audiences.
 
