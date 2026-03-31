@@ -4,8 +4,6 @@
 
 As part of the [revamp project](..), W3C is developing new styles for CG Specifications. 
 
-To provide feedback, please use the [CG Program issues list](https://github.com/w3c/cg-program/issues) with label "Spec style feedback" or send email to team-community-process@w3.org.
-
 ## February 2026 mockups
 
 Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
