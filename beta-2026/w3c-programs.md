@@ -98,9 +98,9 @@ For Community Groups, W3C does not make these commitments. In some cases, Commun
 | **Represents W3C-wide endorsement** | No | No | Yes | No | No |
 | **Stability** | Unstable / in development | Stable but not completed | Stable and completed (as a standard) | Unstable / in development | Stable and completed  (as incubation) |
 | **Satisfies chartered requirements and dependencies** | Unknown | Yes | Yes | Unknown  | Unknown |
-| **Has received wide review (including horizontal reviews)** | Unknown | Yes | Yes | Unknown  |  Unknown|
-| **Has adequate implementation experience** | Unknown | Unknown | Yes | Unknown |  Unknown|
-| **Benefits from royalty-free patent commitments** | No | Yes (for Snapshots published since 2020\) | Yes | From contributors for their contributions | For the full text of the specification from anyone who has opted in to make a full specification commitment  |
+| **Has received wide review (including horizontal reviews)** | Unknown | Yes | Yes | Unknown  |  Unknown |
+| **Has adequate implementation experience** | Unknown | Unknown | Yes | Unknown |  Unknown |
+| **Benefits from royalty-free patent commitments** | No | Yes (for Snapshots published since 2020) | Yes | From contributors for their contributions | For the full text of the specification from anyone who has opted in to make a full specification commitment  |
 
 **Note**: A Candidate Recommendation Snapshot that has been revised but does not yet fulfill the requirements for that status is called a Candidate Recommendation Draft. See below for information on Recommendation Track deprecation labels.
 
