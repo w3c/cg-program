@@ -13,9 +13,9 @@ As stated in the [W3C Vision](https://www.w3.org/TR/w3c-vision/), “The fundame
 
 W3C supports the community working together on Web technology specifications through two main programs:
 
-* **The Recommendation Track (for standardization)**. The W3C Recommendation Track is designed to solidify support for a technology and increase its quality through requirements for consensus decisions, public reviews, implementation, and demonstrated interoperability. **Specifications on the Recommendation Track are on W3C’s roadmap for the Web.** W3C standards, called W3C Recommendations, are exclusively published by W3C Working Groups.
+* **The Recommendation Track (for standardization)**. <a id="standardization"></a> The W3C Recommendation Track is designed to solidify support for a technology and increase its quality through requirements for consensus decisions, public reviews, implementation, and demonstrated interoperability. **Specifications on the Recommendation Track are on W3C’s roadmap for the Web.** W3C standards, called W3C Recommendations, are exclusively published by W3C Working Groups.
 
-* **Community Groups (for incubation)**. In order to make it easy for people to introduce new ideas for the Web, W3C hosts the “Community Groups” program. This program uses a lightweight process by design so that contributors can iterate quickly with limited constraints early in the life of an unproven technology. **Community Group specifications represent community-driven incubation, but are not on W3C’s roadmap for the Web and are not W3C standards.** When Community Group specifications gain traction, they may advance to standardization, either at W3C or another organization.
+* **Community Groups (for incubation)**. <a id="incubation"></a> In order to make it easy for people to introduce new ideas for the Web, W3C hosts the “Community Groups” program. This program uses a lightweight process by design so that contributors can iterate quickly with limited constraints early in the life of an unproven technology. **Community Group specifications represent community-driven incubation, but are not on W3C’s roadmap for the Web and are not W3C standards.** When Community Group specifications gain traction, they may advance to standardization, either at W3C or another organization.
 
 This document includes:
 
