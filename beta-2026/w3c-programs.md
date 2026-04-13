@@ -77,6 +77,7 @@ As the table below shows, Community Groups have a lighter-weight process to make
 
 The Recommendation Track requires reviews and implementation experience to increase (and strengthen) guarantees that adopters can rely on. The public [reviews](https://www.w3.org/policies/process/#wide-review) conducted during the Recommendation Track process include reviews to help ensure that future Web standards support W3C values. These “horizontal reviews” cover topics such as accessibility, internationalization, security, privacy, and Web architecture.
 
+
 | Requirements | Working Group specifications (Recommendation Track) |  Community Group specifications |
 | ----- | ----- | ----- |
 | **Wide review (including horizontal reviews)** | Yes | No |
@@ -92,15 +93,14 @@ For standardization, W3C makes a number of commitments for the development and l
 
 For Community Groups, W3C does not make these commitments. In some cases, Community Groups do pursue and achieve some of the same goals (e.g., interoperable implementations).
 
-|  | Working Group specifications  (Recommendation Track) |  |  | Community Group specifications |  |
 | :---- | ----- | ----- | ----- | ----- | ----- |
-|  | **Working Draft** | **Candidate Rec. Snapshot** | **Recommendation** | **Draft** | **Final** |
-| **On W3C’s roadmap for the Web** | Yes |  |  | No |  |
-| **Represents W3C-wide endorsement** | No | No | Yes | No |  |
+|  | **WG Working Draft** | **WG Candidate Rec. Snapshot** | **WGRecommendation** | **CG Draft** | **CG Final** |
+| **On W3C’s roadmap for the Web** | Yes | Yes | Yes | No | No |
+| **Represents W3C-wide endorsement** | No | No | Yes | No | No |
 | **Stability** | Unstable / in development | Stable but not completed | Stable and completed (as a standard) | Unstable / in development | Stable and completed  (as incubation) |
-| **Satisfies chartered requirements and dependencies** | Unknown | Yes | Yes | Unknown  |  |
-| **Has received wide review (including horizontal reviews)** | Unknown | Yes | Yes | Unknown  |  |
-| **Has adequate implementation experience** | Unknown | Unknown | Yes | Unknown |  |
+| **Satisfies chartered requirements and dependencies** | Unknown | Yes | Yes | Unknown  | Unknown |
+| **Has received wide review (including horizontal reviews)** | Unknown | Yes | Yes | Unknown  |  Unknown|
+| **Has adequate implementation experience** | Unknown | Unknown | Yes | Unknown |  Unknown|
 | **Benefits from royalty-free patent commitments** | No | Yes (for Snapshots published since 2020\) | Yes | From contributors for their contributions | For the full text of the specification from anyone who has opted in to make a full specification commitment  |
 
 **Note**: A Candidate Recommendation Snapshot that has been revised but does not yet fulfill the requirements for that status is called a Candidate Recommendation Draft. See below for information on Recommendation Track deprecation labels.
