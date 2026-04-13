@@ -93,7 +93,6 @@ For standardization, W3C makes a number of commitments for the development and l
 
 For Community Groups, W3C does not make these commitments. In some cases, Community Groups do pursue and achieve some of the same goals (e.g., interoperable implementations).
 
-| :---- | ----- | ----- | ----- | ----- | ----- |
 |  | **WG Working Draft** | **WG Candidate Rec. Snapshot** | **WGRecommendation** | **CG Draft** | **CG Final** |
 | **On W3C’s roadmap for the Web** | Yes | Yes | Yes | No | No |
 | **Represents W3C-wide endorsement** | No | No | Yes | No | No |
