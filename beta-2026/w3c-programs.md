@@ -93,7 +93,7 @@ For standardization, W3C makes a number of commitments for the development and l
 
 For Community Groups, W3C does not make these commitments. In some cases, Community Groups do pursue and achieve some of the same goals (e.g., interoperable implementations).
 
-|  | **WG Working Draft** | **WG Candidate Rec. Snapshot** | **WGRecommendation** | **CG Draft** | **CG Final** |
+|  | **WG Working Draft** | **WG Candidate Rec. Snapshot** | **WG Recommendation** | **CG Draft** | **CG Final** |
 | **On W3C’s roadmap for the Web** | Yes | Yes | Yes | No | No |
 | **Represents W3C-wide endorsement** | No | No | Yes | No | No |
 | **Stability** | Unstable / in development | Stable but not completed | Stable and completed (as a standard) | Unstable / in development | Stable and completed  (as incubation) |
@@ -161,10 +161,8 @@ All Working Groups follow the same decision processes defined in the W3C Process
 | :---- | ----- | ----- |
 | **Group decision process** | Defined in W3C Process; consensus required. | Determined by CG; consensus recommended but not required. |
 | **Formal objection handling** | [Defined in W3C Process](https://www.w3.org/policies/process/#addressing-fo); all Formal Objections must be given due consideration. | Determined by CG; not required. |
-| **Decision appeal path** | [Defined in W3C Process](https://www.w3.org/policies/process/#ACAppeal) | None\* |
+| **Decision appeal path** | [Defined in W3C Process](https://www.w3.org/policies/process/#ACAppeal) | None (The W3C staff is working on a [revision to the CG Process](https://github.com/w3c/cg-program/blob/main/proposals/cg-process.md#decisions-and-appeals) to include an appeal path for non-technical decisions.) |
 | **Requirement to address all feedback of non-participants** | Yes | No |
-
-**\***The W3C staff is working on a [revision to the CG Process](https://github.com/w3c/cg-program/blob/main/proposals/cg-process.md#decisions-and-appeals) to include an appeal path for non-technical decisions.
 
 # Other W3C deliverables
 
