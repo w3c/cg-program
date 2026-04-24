@@ -5,8 +5,6 @@
   <meta name="robots" content="noindex">
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <link href="https://wicg.github.io/scheduling-apis/" rel="canonical">
-  <link href="https://www.w3.org/StyleSheets/TR/2021/base.css" rel="stylesheet">
-  <link href="../assets/cg-spec.css" rel="stylesheet">
 <style>
 /*
  * Put nice boxes around each algorithm.
@@ -282,14 +280,6 @@ figcaption:not(.no-marker)::before {
     --dfnpanel-target-bg: #ffc;
     --dfnpanel-target-outline: orange;
 }
-@media (prefers-color-scheme: dark) {
-    :root {
-        --dfnpanel-bg: #222;
-        --dfnpanel-text: var(--text);
-        --dfnpanel-target-bg: #333;
-        --dfnpanel-target-outline: silver;
-    }
-}
 .dfn-panel {
     position: absolute;
     z-index: 35;
@@ -430,15 +420,6 @@ a[href].issue-return {
 	--mdn-nosupport-text: #ccc;
 	--mdn-pass: green;
 	--mdn-fail: red;
-}
-@media (prefers-color-scheme: dark) {
-	:root {
-		--mdn-bg: #222;
-		--mdn-shadow: #444;
-		--mdn-nosupport-text: #666;
-		--mdn-pass: #690;
-		--mdn-fail: #d22;
-	}
 }
 .mdn-anno {
 	background: var(--mdn-bg, #EEE);
@@ -652,12 +633,6 @@ a[href].issue-return {
     --ref-hint-bg: #ddd;
     --ref-hint-text: var(--text);
 }
-@media (prefers-color-scheme: dark) {
-    :root {
-        --ref-hint-bg: #222;
-        --ref-hint-text: var(--text);
-    }
-}
 
 .ref-hint {
     display: inline-block;
@@ -797,68 +772,6 @@ c-[vg] { color: #0077aa } /* Name.Variable.Global */
 c-[vi] { color: #0077aa } /* Name.Variable.Instance */
 c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
 
-@media (prefers-color-scheme: dark) {
-    .highlight:not(.idl) { background: rgba(255, 255, 255, .05); }
-
-    c-[a] { color: #d33682 } /* Keyword.Declaration */
-    c-[b] { color: #d33682 } /* Keyword.Type */
-    c-[c] { color: #2aa198 } /* Comment */
-    c-[d] { color: #2aa198 } /* Comment.Multiline */
-    c-[e] { color: #268bd2 } /* Name.Attribute */
-    c-[f] { color: #b58900 } /* Name.Tag */
-    c-[g] { color: #cb4b16 } /* Name.Variable */
-    c-[k] { color: #d33682 } /* Keyword */
-    c-[l] { color: #657b83 } /* Literal */
-    c-[m] { color: #657b83 } /* Literal.Number */
-    c-[n] { color: #268bd2 } /* Name */
-    c-[o] { color: #657b83 } /* Operator */
-    c-[p] { color: #657b83 } /* Punctuation */
-    c-[s] { color: #6c71c4 } /* Literal.String */
-    c-[t] { color: #6c71c4 } /* Literal.String.Single */
-    c-[u] { color: #6c71c4 } /* Literal.String.Double */
-    c-[ch] { color: #2aa198 } /* Comment.Hashbang */
-    c-[cp] { color: #2aa198 } /* Comment.Preproc */
-    c-[cpf] { color: #2aa198 } /* Comment.PreprocFile */
-    c-[c1] { color: #2aa198 } /* Comment.Single */
-    c-[cs] { color: #2aa198 } /* Comment.Special */
-    c-[kc] { color: #d33682 } /* Keyword.Constant */
-    c-[kn] { color: #d33682 } /* Keyword.Namespace */
-    c-[kp] { color: #d33682 } /* Keyword.Pseudo */
-    c-[kr] { color: #d33682 } /* Keyword.Reserved */
-    c-[ld] { color: #657b83 } /* Literal.Date */
-    c-[nc] { color: #268bd2 } /* Name.Class */
-    c-[no] { color: #268bd2 } /* Name.Constant */
-    c-[nd] { color: #268bd2 } /* Name.Decorator */
-    c-[ni] { color: #268bd2 } /* Name.Entity */
-    c-[ne] { color: #268bd2 } /* Name.Exception */
-    c-[nf] { color: #268bd2 } /* Name.Function */
-    c-[nl] { color: #268bd2 } /* Name.Label */
-    c-[nn] { color: #268bd2 } /* Name.Namespace */
-    c-[py] { color: #268bd2 } /* Name.Property */
-    c-[ow] { color: #657b83 } /* Operator.Word */
-    c-[mb] { color: #657b83 } /* Literal.Number.Bin */
-    c-[mf] { color: #657b83 } /* Literal.Number.Float */
-    c-[mh] { color: #657b83 } /* Literal.Number.Hex */
-    c-[mi] { color: #657b83 } /* Literal.Number.Integer */
-    c-[mo] { color: #657b83 } /* Literal.Number.Oct */
-    c-[sa] { color: #6c71c4 } /* Literal.String.Affix */
-    c-[sb] { color: #6c71c4 } /* Literal.String.Backtick */
-    c-[sc] { color: #6c71c4 } /* Literal.String.Char */
-    c-[dl] { color: #6c71c4 } /* Literal.String.Delimiter */
-    c-[sd] { color: #6c71c4 } /* Literal.String.Doc */
-    c-[se] { color: #6c71c4 } /* Literal.String.Escape */
-    c-[sh] { color: #6c71c4 } /* Literal.String.Heredoc */
-    c-[si] { color: #6c71c4 } /* Literal.String.Interpol */
-    c-[sx] { color: #6c71c4 } /* Literal.String.Other */
-    c-[sr] { color: #6c71c4 } /* Literal.String.Regex */
-    c-[ss] { color: #6c71c4 } /* Literal.String.Symbol */
-    c-[fm] { color: #268bd2 } /* Name.Function.Magic */
-    c-[vc] { color: #cb4b16 } /* Name.Variable.Class */
-    c-[vg] { color: #cb4b16 } /* Name.Variable.Global */
-    c-[vi] { color: #cb4b16 } /* Name.Variable.Instance */
-    c-[vm] { color: #cb4b16 } /* Name.Variable.Magic */
-    c-[il] { color: #657b83 } /* Literal.Number.Integer.Long */
-}
 </style>
 <style>/* Boilerplate: style-var-click-highlighting */
 /*
@@ -893,16 +806,10 @@ var[data-var-color="4"] { --var-bg: #EACFB6; }
 var[data-var-color="5"] { --var-bg: #82DDFF; }
 var[data-var-color="6"] { --var-vg: #FFBCF2; }
 
-@media (prefers-color-scheme: dark) {
-	var[data-var-color] { --var-bg: #bc1a00; }
-	var[data-var-color="1"] { --var-bg: #007f00; }
-	var[data-var-color="2"] { --var-bg: #008698; }
-	var[data-var-color="3"] { --var-bg: #7f5b2b; }
-	var[data-var-color="4"] { --var-bg: #004df3; }
-	var[data-var-color="5"] { --var-bg: #a1248a; }
-	var[data-var-color="6"] { --var-vg: #ff0000; }
-}
 </style>
+  <link href="../assets/base.css" rel="stylesheet">
+  <link href="../assets/cg-spec.css" rel="stylesheet">
+  <link href="../assets/dark.css" rel="stylesheet">
  <body class="h-entry">
 <div id="announcement-bar" class="box box--information">
             <p><strong>This is a <a href="https://github.com/w3c/cg-program/blob/main/beta-2026/w3c-programs.md#incubation">Community Group incubation</a> and is not on the <a href="https://github.com/w3c/cg-program/blob/main/beta-2026/w3c-programs.md#standardization">W3C standards track</a>.</strong> Learn more about <a href="#usage-guidance">usage, implementation, and next steps</a>.</p>
@@ -2113,7 +2020,7 @@ perspective and do not believe there to be any privacy considerations.</p>
     like this: </p>
    <p class="note" role="note">Note, this is an informative note.</p>
   </div>
-  <script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script>
+  <script src="../assets/fixup.js"></script>
   <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span><a class="self-link" href="#index"></a></h2>
   <h3 class="no-num no-ref heading settled" id="index-defined-here"><span class="content">Terms defined by this specification</span><a class="self-link" href="#index-defined-here"></a></h3>
   <ul class="index">
