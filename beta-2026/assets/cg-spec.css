@@ -11,6 +11,7 @@ html {
 /* Set background colour for CG Reports */
 body {
   background-color: #fffff0;
+  background-color: var(--bg);
 }
 
 /* Add a bit of space between bottom of link text and the underline */
@@ -21,7 +22,8 @@ a[href] {
 /* Table of contents: CG colours for sidebar version */
 body.toc-sidebar {
     #toc  {
-        background-color: #035e7c;
+      background-color: #035e7c;
+      background-color: var(--tocsidebar-bg);
     }
     #toc h2 {
     color: #bfe6ff;
@@ -43,11 +45,12 @@ body.toc-sidebar {
 /* Style generic .box class */
 .box, .head {
   /* Default colour: white */
-  --_box-bg-clr: var(--box-bg-clr, white);
-  --_box-border-clr: var(--box-border-clr, #8d8d87);
+  /* --_box-bg-clr: var(--box-bg-clr, var(--box-bg)); */
+  /* --_box-border-clr: var(--box-border-clr, #8d8d87); */
 
-  background-color: var(--_box-bg-clr);
-  border: 3px solid var(--_box-border-clr);
+  background-color: var(--box-bg);
+  border: 3px solid var(--box-border);
+  color: var(--box-text);
   margin-block: 1em;
   padding: 20px;
   page-break-inside: avoid;
@@ -71,44 +74,53 @@ body.toc-sidebar {
 /* Colours for different .box variants */
 /* yellow */
 .box--information {
-  --box-bg-clr: #fff5bd;
-  --box-border-clr: #9b8f00;
+  background-color: var(--box-bg--info);
+  border-color: var(--box-border--info);
+}
+.box--information *,
+.box--information a
+ {
+  color: black;
 }
 /* red */
 .box--warning {
-  --box-bg-clr: #fef1f0;
-  --box-border-clr: #8a2e15; 
+  background-color: var(--box-bg--warning);
+  border-color: var(--box-border--warning);
 }
-.box--warning h2 {
+.box--warning *,
+.box--warning a
+ {
   color: black;
-}
+}  
 /* green */
 .box--beta {
-  --box-border-clr: #2dc156;
-  --box-bg-clr: #d6fedc;
+  background-color: var(--box-bg--beta);
+  border-color: var(--box-border--beta);
 }
-.box--beta * {
+.box--beta *,
+.box--beta a
+ {
   color: black;
-}
+}      
 
 /* CG report blue header box */
 .head {
-  --box-border-clr: #023e53;
-  --box-bg-clr: #035e7c;
-  color: white;
+  background-color: var(--box-bg--head);
+  border-color: var(--box-border--head);
+  color: var(--box-text--head);
 }
 .head a {
-  color: white;
+  color: var(--box-text--head);
   text-decoration-color: #76d1fe;
 }
 .head a:visited, .head a:hover, .head a:focus, .bhead a:active {
   color: #bfe6ff;
 }
 .head hr {
-  color: #023e53;
+  color: var(--box-border--head);
 }
 .head h1, .head h2, .head h3 {
-  color: white;
+  color: var(--box-text--head);
 }
 .head h2#subtitle {
   margin-block-end: 0;
@@ -167,7 +179,8 @@ meter#maturity-level::-moz-meter-bar {
 
 /* Usage guidance table */
 .box table {
-  background-color: #f4f5ea;
+  background-color: var(--box-table-bg);
+  color: var(--box-table-text);
   border-collapse: collapse;
   inline-size: 100%;
   margin-bottom: 1rem;
@@ -251,20 +264,27 @@ summary + .table-wrap {
 button#announcement-dismiss {
   color:white;
   font-size: 1rem;
-  background-color: #615900;
+  background-color: var(--box-button--info);
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
   border-color: transparent;
   cursor: pointer;
 }
 button#announcement-dismiss:hover,
-.box--warning button#announcement-dismiss:hover {
-  background-color: black;
+.box--warning button#announcement-dismiss:hover,
+.box--beta button#announcement-dismiss:hover {
+  background-color: var(--box-button--hover);
 }
 /* warning - red colourway */
 .box--warning button#announcement-dismiss {
-  background-color: #8a2e15;
+  background-color: var(--box-button--warning);
 }
+/* beta - green colourway */
+.box--beta button#announcement-dismiss {
+  background-color: var(--box-button--beta);
+}
+
+
 
 /* When the dismiss button has been pressed, hide the announcement from everyone */
 #announcement-bar:has(button#announcement-dismiss[aria-pressed="true"]) {
