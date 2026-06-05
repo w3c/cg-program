@@ -129,6 +129,7 @@ The criteria for participation vary by group type.
 | :---- | ----- | ----- |
 | **Organizational participation** | [W3C Member](https://www.w3.org/membership/) representatives. Advisory Committee Representatives join groups on behalf of W3C Members. | Any organization may participate, without fee. Individuals join groups on behalf of the organization identified via the “affiliation” part of their W3C account. |
 | **Individual participation** | By invitation, see the [W3C Invited Expert policy](https://www.w3.org/policies/process/#invited-expert-wg). | Anyone, without fee. Individuals join groups on their own behalf if the “affiliation” in their W3C account is “none.” |
+| **W3C Staff participation** | Staff Contacts fulfill [defined roles]](https://www.w3.org/guide/teamcontact/role.html). | There are no formal Staff Contacts, but W3C staff may participate. |
 
 ## Group creation and chairing
 
