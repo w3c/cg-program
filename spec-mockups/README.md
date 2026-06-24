@@ -4,6 +4,12 @@
 
 As part of the [revamp project](..), W3C is developing new styles for CG Specifications. 
 
+## June 2026 mockups
+
+Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
+
+* [Sample file-system-access](https://w3c.github.io/w3c/cg-program/blob/main/spec-mockups/v9/file-system-access/b.html)
+
 ## February 2026 mockups
 
 Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
