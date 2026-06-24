@@ -8,7 +8,6 @@ As part of the [revamp project](..), W3C is developing new styles for CG Specifi
 
 Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
 
-* [Sample file-system-access](https://w3c.github.io/cg-program/spec-mockups/v9/file-system-access/b.html)
 * [Sample scheduling-api](https://w3c.github.io/cg-program/spec-mockups/v9/scheduling-apis/b.html)
 
 ## February 2026 mockups
