@@ -1,0 +1,447 @@
+/**
+Styles from Studio 24
+ */
+
+/* Hide visually only - remains available to Assistive Technology */
+.visuallyhidden {
+  block-size: 1px;
+  border: 0;
+  clip-path: inset(50%);
+  inline-size: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Default scroll-padding for space above an anchor link on scroll */
+  scroll-padding-top: 3rem;
+}
+
+/* Set background colour for CG Reports */
+body {
+  background-color: var(--bg);
+}
+
+/* Add a bit of space between bottom of link text and the underline */
+a[href] {
+  text-underline-offset: 0.2em;
+}
+
+.link--button, 
+&:visited {
+  display: inline-block;
+  vertical-align: middle;  
+  background-color: var(--link--button--bg);  
+  text-decoration: none;
+  padding: 10px; 
+  border-radius: 5px; 
+  &:active,
+  &:hover
+  {
+    background-color: var(--link--button--bg--hover);
+  }
+}
+/* display many buttons */
+.links--button {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  margin-block-start: 1rem;
+}
+
+/* Inline satus tag */
+.link--button--tag {
+  font-size: 60%; 
+  padding:4px 8px; 
+}
+
+/* Table of contents: CG colours for sidebar version */
+body.toc-sidebar {
+    #toc  {
+      background-color: var(--tocsidebar-bg);
+    }
+    #toc h2 {
+    color: #bfe6ff;
+    }
+    .toc a {
+        color: white;
+        text-decoration-color: #76d1fe;
+        padding: 0.25em;
+    }
+    /* a:visited, a:hover, a:focus, a:active */
+    .toc a:visited {
+        color: #bfe6ff;
+    }
+    .toc a:hover, .toc a:active {
+        background-color: #161616;
+    }
+}
+
+/* Style default .box class */
+.box {
+  background-color: var(--box-bg);
+  /* border: 3px solid var(--box-border); */
+  color: var(--box-text);
+  margin-block: 2em;
+  padding: 20px;
+  page-break-inside: avoid;
+  border-radius: var(--box-radius);
+}
+.box > *:first-child {
+  margin-block-start: 0
+}
+.box > *:last-child {
+  margin-block-end: 0
+}
+/* no top margin for the first box on the page */
+.box:first-of-type {
+  margin-block-start: 0; 
+}
+/* Less margins for consecutive boxes and those following responsive tables */
+.box + .box, .table-wrap + .box {
+  margin-block-start: 1rem;
+}
+
+/* Usage guidance table uses these styles */
+.box table {
+  background-color: var(--box-table-bg);
+  color: var(--box-table-text);
+  border-collapse: collapse;
+  inline-size: 100%;
+  margin-bottom: 1rem;
+  th, tr, td {
+    border: 2px solid var(--box-table-border); 
+    vertical-align: middle;
+    padding: 0.75em;
+  }
+  th {
+    background-color: var(--box-table-th-bg);
+  }
+}
+
+/* Link states */
+.box table a:visited, 
+.box table a:hover, 
+.box table a:focus,
+.box table a:active {
+  text-decoration-color: black;
+}
+/* Warning red colourway for usage guidance tables */
+.box.box--warning table {
+  background-color: #fbd8d4;
+  border-color: #8a2e15;
+}
+/* Warning red colourway for usage guidance tables */
+.box.box--warning *:where(caption, td, th) {
+  border-color: #8a2e15;
+}
+
+.box td p {
+  margin: 0;
+}
+
+.box td p + p {
+  margin-block-start: .5em
+}
+.box caption {
+  text-align: left;
+  font-size: 115%;
+  font-style: normal;
+  border: none;
+  margin-bottom: 0.1em;
+}
+
+/* Colours for different .box variants */
+/* Blue header box */
+.box--head {
+  background-color: var(--box-bg--head);
+  border-color: var(--box-border--head);
+  color: var(--box-text--head);
+}
+.box--head:first-of-type {
+  margin-top: 0;
+}
+.box--head a {
+  color: var(--box-text--head);
+  text-decoration-color: #76d1fe;
+}
+.box--head a:visited, .box--head a:hover, .box--head a:focus, .bhead a:active {
+  color: #bfe6ff;
+}
+.box--head hr {
+  color: var(--box-border--head);
+}
+.box--head h1, .box--head h2, .box--head h3 {
+  color: var(--box-text--head);
+}
+.box--head h1 {
+  font-size: 210%;
+  margin-bottom: 0.25em;
+}
+.box--head h1 + h2 {
+  font-size: 105%;
+  line-height: 1.5;
+}
+.box--head h2 + h3 {
+  margin-top: 1rem;
+}
+.box--head table {
+  background-color: var(--box-table-bg--head);
+  color: var(--box-table-text--head);
+  border: solid 2px var(--box-table-border--head);
+  caption {
+    color: var(--box-text--head);
+  }
+  th, tr, td {
+    border: 2px solid var(--box-table-border--head); 
+  }
+  th {
+    background-color: var(--box-table-th-bg--head);
+  }
+  a {
+    color: inherit;
+    text-decoration-color: var(--box-table-text-dec--head);
+    &:hover, &:visited, &:active {
+      color: inherit;
+      text-decoration-color: var(--box-table-text-dec--head);
+    }
+  }
+}
+
+/* yellow - neutral information notice */
+.box--information {
+  background-color: var(--box-bg--info);
+  border-color: var(--box-border--info);
+}
+.box--information *,
+.box--information a
+ {
+  color: black;
+}
+/* red warning notice */
+.box--warning {
+  background-color: var(--box-bg--warning);
+  border-color: var(--box-border--warning);
+}
+.box--warning *,
+.box--warning a
+ {
+  color: black;
+}  
+/* green - positive information notivce*/
+.box--beta {
+  background-color: var(--box-bg--beta);
+  border-color: var(--box-border--beta);
+}
+.box--beta *,
+.box--beta a
+ {
+  color: black;
+}      
+
+/* Responsive (scrolling) table styles */
+@media screen {
+  .table-wrap {
+    overflow: auto;
+  }
+}
+
+/* Icons */
+.icon {
+  width: 1em;
+  position: relative;
+  top: 0.15em;
+}
+.icon--before {
+  padding-right: 0.5em;
+}
+
+
+
+/* Progress indicator */
+.progress-list {
+  /* first remove any list styles */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  :where(ul, ol, li) {
+      margin: 0;
+      padding: 0;
+  }
+
+  margin-block-end: 20px;
+
+	@media screen and (min-width: 51em) {
+		display: flex;
+		flex-wrap: wrap;
+    justify-content: center;
+	}
+}
+
+/* Reset base <ol> styles */
+.progress-list ::marker {
+	content: ''!important;
+}
+
+.progress-list li {
+	position: relative;
+  /* connecting lines */
+	&::after {
+		background-color: var(--progress-lines);
+		block-size: 13px;
+		content: '';
+		inline-size: 3px;
+		inset-block-end: -16px;
+		inset-inline-start: 23px; 
+		position: absolute;
+
+		@media screen and (min-width: 51em) {
+			block-size: 3px;
+			inline-size: 100%;
+			inset-block: 32px auto;
+			inset-inline-start: 50%;
+
+      z-index: 0;
+		}
+	}
+
+	+ li {
+		margin-block-start: 20px;
+
+		@media screen and (min-width: 51em) {
+			margin-block-start: 0;
+		}
+	}
+}
+
+
+.progress-list li.complete {
+	&::after {
+		background-color: var(--progress-lines);
+	}
+}
+
+
+.progress-list li:last-child {
+	&::after {
+		display: none;
+	}
+}
+
+
+.progress-step__inner {
+	align-items: center;
+	display: flex;
+
+	@media screen and (min-width: 51em) {
+		flex-direction: column;
+		padding-block-start: 10px;
+		text-align: center;
+	}
+
+	> a {
+      /* font-size: 17px; */
+
+		padding: 10px;
+
+		@media screen and (min-width: 51em) {
+			inline-size: 150px;
+		}
+	}
+}
+
+.progress-step__marker {
+	align-items: center;
+	background-color: var(--box-bg--head);
+	block-size: 44px;
+	border: solid 3px var(--progress-lines);
+	border-radius: 50%;
+	display: flex;
+	inline-size: 44px;
+	justify-content: center;
+
+  z-index: 1;
+
+	@media screen and (min-width: 51em) {
+		box-shadow: 0 0 0 10px var(--box-bg--head);
+	}
+}
+
+
+.progress-step__marker.complete {
+	background-color: var(--progress-complete);
+	border-color: var(--progress-lines);
+	color: white;
+	position: relative;
+
+	&::before,
+	&::after {
+		background-color: var(--progress-complete);
+		content: '';
+		position: absolute;
+	}
+
+	&::before {
+		block-size: 44px;
+		border-radius: 50%;
+		inline-size: 44px;
+		inset-block-start: 0;
+		inset-inline-start: 0;
+	}
+
+	&::after {
+		block-size: 9px;
+		border: solid;
+		border-block-start-color: transparent;
+		border-width: 0 0 3px 3px;
+		inline-size: 18px;
+		inset-block-start: 13px;
+		inset-inline-start: 10px;
+		transform: rotate(-45deg);
+	}
+}
+
+
+
+
+
+/* PRINT STYLES */
+@media print {
+  html {
+    scroll-padding-top: none;
+  }
+  #announcement-bar {
+    position: relative;
+    box-shadow: none;
+  }
+  #announcement-dismiss,
+  .meter-label,
+  meter {
+    display: none !important;
+  }
+  .box > *,
+  .box a,
+  .box--head > *,
+  .box--head a
+  {
+    color: black !important;
+  }
+}
+
+  dl.row-data { margin: 0;}
+  dl.row-data div {
+      display: inline-block; 
+      /* border-right: thin solid black;  */
+      padding: 2px 5px;
+  }
+  dl.row-data div:last-child { border-right: none;}
+  dl.row-data dd {
+      margin: 0;
+  }
+  dl.row-data dt {
+      text-align: center;
+  }
