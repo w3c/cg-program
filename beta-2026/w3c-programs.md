@@ -59,12 +59,12 @@ The general-purpose labels (program, maturity level) convey some information abo
 
 Beginning in 2026, W3C has been experimenting with a "progress bar" that would appear at the top of Community Group specifications. Though still experimental, the progress bar would depict these states:
 
-* Early. This is early work, likely unstable, and without implementation support.
-* Experimentation underway. There is some implementation experience, and people are encouraged to experiment. However, people should not expect interoperable implementations.
+* **Early**. This is early work, likely unstable, and without implementation support.
+* **Experimentation underway**. There is some implementation experience, and people are encouraged to experiment. However, people should not expect interoperable implementations.
 
-* Standardization planned. The technology has gained enough traction that the community has begun to plan for standardization. There may be signals from implementers about plans to advance to standardization, a draft W3C Working Group charter, and other indications of the intent to standardize. However, standardization is not yet underway.
+* **Standardization planned**. The technology has gained enough traction that the community has begun to plan for standardization. There may be signals from implementers about plans to advance to standardization, a draft W3C Working Group charter, and other indications of the intent to standardize. However, standardization is not yet underway.
 
-* Standardization started. Standardization has started in a W3C Working Group or another standards development organization. In this case, the status of the specification is updated to "Transferred."
+* **Standardization started**. Standardization has started in a W3C Working Group or another standards development organization. In this case, the status of the specification is updated to "Transferred."
 
 ## Stability topics
 
