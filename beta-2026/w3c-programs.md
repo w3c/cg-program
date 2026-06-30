@@ -55,7 +55,16 @@ Each program (incubation and standardization) defines a lifecycle for specificat
 
 The general-purpose labels (program, maturity level) convey some information about guarantees, but do not tell a “detailed story” about a specification. For this reason, each specification includes a “status section” with custom usage guidance for that specification. The third step when consulting a specification is to review the status section.
 
-**Note**: Beginning in 2026, W3C is experimenting with providing additional metadata in Community Group specifications to help communicate more clearly information about implementer traction, adoption, and known standardization plans.
+### Community Group progress bar
+
+Beginning in 2026, W3C has been experimenting with a "progress bar" that would appear at the top of Community Group specifications. Though still experimental, the progress bar would depict these states:
+
+* Early. This is early work, likely unstable, and without implementation support.
+* Experimentation underway. There is some implementation experience, and people are encouraged to experiment. However, people should not expect interoperable implementations.
+
+* Standardization planned. The technology has gained enough traction that the community has begun to plan for standardization. There may be signals from implementers about plans to advance to standardization, a draft W3C Working Group charter, and other indications of the intent to standardize. However, standardization is not yet underway.
+
+* Standardization started. Standardization has started in a W3C Working Group or another standards development organization. In this case, the status of the specification is updated to "Transferred."
 
 ## Stability topics
 
