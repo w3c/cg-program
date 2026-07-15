@@ -8,7 +8,12 @@ As part of the [revamp project](..), W3C is developing new styles for CG Specifi
 
 Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
 
-* [Sample scheduling-api v11](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b.html)
+* V11 samples
+  * [Sample scheduling-api](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b.html)
+  * [Sample scheduling-api snapshot](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b-snapshot.html)
+  * [Sample scheduling-api transferred](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b-transferred.html)
+  * [Sample scheduling-api unmaintained](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b-unmaintained.html)
+  * [Sample scheduling-api unmaintained-1](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b-unmaintained-1.html)
 * [Sample scheduling-api v10](https://w3c.github.io/cg-program/spec-mockups/v10/scheduling-apis/b.html)
 * [Sample scheduling-api v9](https://w3c.github.io/cg-program/spec-mockups/v9/scheduling-apis/b.html)
 
