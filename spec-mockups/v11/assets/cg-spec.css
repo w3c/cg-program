@@ -14,6 +14,10 @@ Styles from Studio 24
   white-space: nowrap;
 }
 
+.float--r {
+  float: right;
+}
+
 html {
   scroll-behavior: smooth;
   /* Default scroll-padding for space above an anchor link on scroll */
@@ -51,12 +55,18 @@ a[href] {
   gap: 1rem;
   margin-block-start: 1rem;
 }
+/* inverted button colours */
+.link--button--inverted {
+  background-color: white;
+  color: black !important;  
+}
 
 /* Inline satus tag */
 .link--button--tag {
   font-size: 60%; 
   padding:4px 8px; 
 }
+
 
 /* Table of contents: CG colours for sidebar version */
 body.toc-sidebar {
@@ -111,6 +121,10 @@ body.toc-sidebar {
   border-collapse: collapse;
   inline-size: 100%;
   margin-bottom: 1rem;
+  caption {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
   th, tr, td {
     border: 2px solid var(--box-table-border); 
     vertical-align: middle;
@@ -199,6 +213,12 @@ body.toc-sidebar {
       text-decoration-color: var(--box-table-text-dec--head);
     }
   }
+}
+/* Get involved promo box */
+.box--get-involved {
+  background-color: green;
+  color: white;
+  /* display: inline-block; */
 }
 
 /* red - warning notice */
@@ -386,25 +406,25 @@ body.toc-sidebar {
 
 /* description list in a grid - used for editors */
 dl.grid {
-	@supports (grid-row-start: auto) {
+  @supports (grid-row-start: auto) {
 		display: grid;
-    gap: 1rem 0.5rem;
-    grid-template-columns: max-content;
+    gap: 0.75rem 0.5rem;
+    grid-template-columns: fit-content(50%);
 
-		dt {
+		dt, dd {
       line-height: 1.5;
 		}
-
+   
 		dd {
       grid-column-start: 2;
       margin: 0;
 		}
 
-        dd + dt,
-        dt + dd,
-        dd + dd {
-            margin-block-start: 0;
-        }
+    dd + dt,
+    dt + dd,
+    dd + dd {
+        margin-block-start: 0;
+    }
 	}
 }
 
