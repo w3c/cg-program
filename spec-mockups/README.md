@@ -14,6 +14,7 @@ Please note that these are **draft** mockups and must not yet be used on Communi
   * [Scheduling-api transferred](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b-transferred.html)
   * [Scheduling-api unmaintained](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b-unmaintained.html)
   * [File system access](https://w3c.github.io/cg-program/spec-mockups/v11/file-system-access/b.html)
+  * [File system access (editors lower)](https://w3c.github.io/cg-program/spec-mockups/v11/file-system-access/c.html)
 * [Sample scheduling-api v10](https://w3c.github.io/cg-program/spec-mockups/v10/scheduling-apis/b.html)
 * [Sample scheduling-api v9](https://w3c.github.io/cg-program/spec-mockups/v9/scheduling-apis/b.html)
 
