@@ -218,7 +218,12 @@ body.toc-sidebar {
 .box--get-involved {
   background-color: green;
   color: white;
-  /* display: inline-block; */
+  .button-group {
+    display: flex;
+		flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
 }
 
 /* red - warning notice */
