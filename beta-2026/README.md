@@ -37,5 +37,6 @@ we expect each phase to last approximately two months.
 
 Several proposals in development within this Community Group provide background to this project:
 
+* [CG redesign overview](cg-redesign-overview.md)
 * An enhanced [CG Specification Lifecycle](../proposals/spec-lifecycle.md). The new designs seek to communicate the maturity levels of the enhanced lifecycle.
 * [Describing Implementation Traction](../proposals/spec-lifecycle-implementation-traction.md), which documents some of the thinking behind the status signals that appear in the usage guidance section.
