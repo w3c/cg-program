@@ -1,12 +1,10 @@
 # CG Specification Mockups
 
-**These mockups have been superseded; see the [beta specifications](../beta-2026)**
-
 As part of the [revamp project](..), W3C is developing new styles for CG Specifications. 
 
-## August 2026 mockups
-
 Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
+
+## Revisions based on beta feedback
 
 * V12 samples
   * [Scheduling-api](https://w3c.github.io/cg-program/spec-mockups/v12/scheduling-apis/b.html)
@@ -14,11 +12,6 @@ Please note that these are **draft** mockups and must not yet be used on Communi
   * [Scheduling-api transferred](https://w3c.github.io/cg-program/spec-mockups/v12/scheduling-apis/b-transferred.html)
   * [Scheduling-api unmaintained](https://w3c.github.io/cg-program/spec-mockups/v12/scheduling-apis/b-unmaintained.html)
   * [File system access](https://w3c.github.io/cg-program/spec-mockups/v12/file-system-access/b.html)
-
-## June 2026 mockups
-
-Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
-
 * V11 samples
   * [Scheduling-api](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b.html)
   * [Scheduling-api snapshot](https://w3c.github.io/cg-program/spec-mockups/v11/scheduling-apis/b-snapshot.html)
@@ -29,7 +22,9 @@ Please note that these are **draft** mockups and must not yet be used on Communi
 * [Sample scheduling-api v10](https://w3c.github.io/cg-program/spec-mockups/v10/scheduling-apis/b.html)
 * [Sample scheduling-api v9](https://w3c.github.io/cg-program/spec-mockups/v9/scheduling-apis/b.html)
 
-## February 2026 mockups
+## Mockups used in the early 2026 beta
+
+These mockups were the basis of [beta specifications](../beta-2026) in Q2 2026.
 
 Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
 
