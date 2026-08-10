@@ -199,17 +199,6 @@ body.toc-sidebar {
     background-color: var(--box-table-th-bg--head);
   }
 }
-/* Get involved promo box */
-.box--get-involved {
-  background-color: green;
-  color: white;
-  .button-group {
-    display: flex;
-		flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-  }
-}
 
 /* red - warning notice */
 .box--warning {
@@ -224,6 +213,7 @@ body.toc-sidebar {
 /* Neutral information notice */
 .box--information {
   background-color: var(--box-bg--info);
+  color: white;
   h2 a {
     text-decoration-thickness: 1px;
   }
