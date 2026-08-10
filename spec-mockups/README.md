@@ -4,6 +4,17 @@
 
 As part of the [revamp project](..), W3C is developing new styles for CG Specifications. 
 
+## August 2026 mockups
+
+Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
+
+* V12 samples
+  * [Scheduling-api](https://w3c.github.io/cg-program/spec-mockups/v12/scheduling-apis/b.html)
+  * [Scheduling-api snapshot](https://w3c.github.io/cg-program/spec-mockups/v12/scheduling-apis/b-snapshot.html)
+  * [Scheduling-api transferred](https://w3c.github.io/cg-program/spec-mockups/v12/scheduling-apis/b-transferred.html)
+  * [Scheduling-api unmaintained](https://w3c.github.io/cg-program/spec-mockups/v12/scheduling-apis/b-unmaintained.html)
+  * [File system access](https://w3c.github.io/cg-program/spec-mockups/v12/file-system-access/b.html)
+
 ## June 2026 mockups
 
 Please note that these are **draft** mockups and must not yet be used on Community Group specifications.
