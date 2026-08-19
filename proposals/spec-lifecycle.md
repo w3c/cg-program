@@ -1,7 +1,5 @@
 # CG Specification Lifecycle
-Status: This is a proposal for discussion; it does not yet represent consensus.
-
-This topic was discussed in a breakout session during the AC 2025 meeting; see the [slides](https://www.w3.org/2025/Talks/cg-breakout-ac2025.pdf).
+Status: This is a proposal for discussion; it does not yet represent consensus. See also the [description of W3C incubation and standardization programs](https://github.com/w3c/cg-program/blob/main/beta-2026/w3c-programs.md).
 
 # Motivation
 
@@ -65,11 +63,14 @@ to readers when a new level or version is available.
 
 ### Progress bar
 
-During a TPAC 2025 breakout sessions regarding clear communication about CG Specification status, there were suggestions for a "progress bar" to help readers understand the relative maturity of a Draft Specification. As of January 2026, the staff is working on such a progress bar that would leverage some of the status signals described in the next section. Specifically, the progress bar is likely to reflect the following:
+During a TPAC 2025 breakout sessions regarding clear communication about CG Specification status, there were suggestions for a "progress bar" to help readers understand the relative maturity of a Draft Specification. As of January 2026, the staff is working on such a progress bar that would leverage some of the status signals described in the next section. Specifically, the progress bar includes these states:
 
 * Early in the the lifecycle
-* Experimentation implementation available
-* Standardization plans available
+  * This is the default
+* Experimentation underway. Signals:
+  * There is at least one known full or partial implementation.
+* Standardization planned. Signals:
+  * There are statements about standardization plans (e.g., github issue)
 
 The progress bar would also reflect the end maturity level, whether Transferred or Unmaintained.
 
@@ -143,3 +144,6 @@ We foresee a list of implementation blocks. For each block:
 * Reports (and repos) should include usage guidance that depend on the maturity level and status signals. It might be interesting to see if we can generate the usage guidance systematically for each combination of maturity level and status signals.
    * Standardization expectation = “intent => This specification appears to be gaining traction and the CG has indicated an intent to advance to standardization. We recommend checking periodically to see whether the specification has been transferred to a group for standardization.”
 
+## History
+
+This topic was discussed in a breakout session during the AC 2025 meeting; see the [slides](https://www.w3.org/2025/Talks/cg-breakout-ac2025.pdf).
