@@ -5,7 +5,7 @@ title: Standardization and Incubation at W3C
 # Status
 
 This is a draft document that was developed to support the beta test for new CG specification designs. Following the beta, we anticipate integrating
-this text into the main w3.org content.
+this text into the main w3.org content. Mockups today link to this document, but in the future specifications using the new designs will have links to the definitive content.
 
 # Introduction
 
