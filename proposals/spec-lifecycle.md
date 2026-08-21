@@ -42,7 +42,14 @@ We seek to communicate specification status to these audiences:
 
 ## Maturity stages
 
-### Living documents v snapshots
+* **Draft**
+   * Meaning: A Community Group is currently working on the specification.
+* **Unmaintained**
+   * Meaning: No Community Group is currently working on the specification and W3C is not aware that the specification is under development elsewhere. The status section of the document explains the context.
+* **Transferred** 
+   * Meaning: No Community Group is currently working on the specification and it has been transferred elsewhere for more development or standardization. The status section of the document explains the context.
+
+## Living documents v snapshots
 
 Groups generally publish living documents, meaning they make changes in place (at the same URL).
 
