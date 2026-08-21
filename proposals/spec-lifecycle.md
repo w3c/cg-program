@@ -65,12 +65,12 @@ to readers when a new level or version is available.
 
 During a TPAC 2025 breakout sessions regarding clear communication about CG Specification status, there were suggestions for a "progress bar" to help readers understand the relative maturity of a Draft Specification. As of January 2026, the staff is working on such a progress bar that would leverage some of the status signals described in the next section. Specifically, the progress bar includes these states:
 
-* Early in the the lifecycle
+* Early idea
   * This is the default
-* Experimentation underway. Signals:
-  * There is at least one known full or partial implementation.
-* Standardization planned. Signals:
-  * There are statements about standardization plans (e.g., github issue)
+* Implementer experimentation
+  * Signals include intent to prototype, origin trial
+* Adopter experimentation
+  * Signals: At least one implementation is shipping, there may be statements about standardization plans or opposition
 
 The progress bar would also reflect the end maturity level, whether Transferred or Unmaintained.
 
