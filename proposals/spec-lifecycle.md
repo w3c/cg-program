@@ -1,5 +1,5 @@
 # CG Specification Lifecycle
-Status: This is a proposal for discussion; it does not yet represent consensus. See also the [description of W3C incubation and standardization programs](https://github.com/w3c/cg-program/blob/main/beta-2026/w3c-programs.md).
+Status: As of August 2026, this proposal is stable and beginning to be deployed. See also the [description of W3C incubation and standardization programs](https://github.com/w3c/cg-program/blob/main/beta-2026/w3c-programs.md).
 
 # Motivation
 
