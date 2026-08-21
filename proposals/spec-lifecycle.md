@@ -71,9 +71,11 @@ During a TPAC 2025 breakout sessions regarding clear communication about CG Spec
   * Signals include intent to prototype, origin trial
 * Adopter experimentation
   * Signals: At least one implementation is shipping, there may be statements about standardization plans or opposition
+* Standardization started
+  * This means that some or all of this specification is now undergoing standardization (e.g., in a W3C Working Group). 
+  * When a Community Group continues to work on a living specification after transferring some material to a group for standardization, the CG can decide whether it wants to indicate "Standardization started" even as it develops the living specification, or whether it wants to return to an earlier state of the progress bar to indicate more of a departure from what has been transferred. In either case, the document status section should describe the relationship between the CG and WG activities.
 
-The progress bar would also reflect the end maturity level, whether Transferred or Unmaintained.
-
+The progress bar is only shown in living specification drafts.
 
 ## Status signals
 
