@@ -145,17 +145,11 @@ The Community Development Lead may archive a group for other reasons than a Chai
 * **Agreement violations**. When, in the judgment of the Community Development Lead, the group has committed a serious violation of policies governing Community Groups.
 * **Confusing communications**. If the Community Development Lead determines that a group or its participants show a pattern of creating confusion about their work or its status (including Specifications that do not conform to requirements for Community Group Specifications), the Community Development Lead may take steps to remedy the situation, including archiving the group.
 
-## Community Group Deliverables
+## Lifecycle of Community Group Specifications 
 
-Some Community Groups create deliverables, while others simply hold discussions. This process primarily includes requirements on one type of Community Group deliverable: **Community Group Specifications**.
+Some Community Groups create deliverables, while others simply hold discussions. This process primarily includes requirements on one type of Community Group deliverable: **Community Group Specifications**. A Community Group Specification is any document intended to enable interoperable implementation of a technology. In case there is any doubt about whether a Community Group deliverable is a Specification, the Community Development Lead makes a determination for the purposes of conformance to Community Group policies.
 
-Non-Specification Community Group deliverables must be publicly available at no cost. This process does not include IPR or other requirements for non-Specification deliverables (e.g., code, test suites, or other documents that are not Specifications).
-
-### Community Group Specifications
-
-A Community Group Specification is any document intended to enable interoperable implementation of a technology. In case there is any doubt about whether a Community Group deliverable is a Specification, the Community Development Lead makes a determination for the purposes of conformance to Community Group policies.
-
-#### Intellectual Property Policies for Specifications
+### Intellectual Property Policies for Specifications
 
 The Community Group intellectual property (IPR) policies for Specifications seek to balance the concerns of both implementers and participants who hold Intellectual Property. Please see the [Patent and Copyright Policy Summary](https://www.w3.org/community/about/process/summary/), which covers the [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/2025/08/cla) and the [W3C Community Final Specification Agreement (FSA)](https://www.w3.org/2025/08/final). 
 
@@ -163,7 +157,7 @@ W3C has a preference for organizational, rather than individual patent commitmen
 
 When a participant resigns from a Community Group, they incur no new or further obligations after the date of resignation and maintain only those obligations already incurred, and that survive resignation from the Community Group, as provided in the CLA and, when applicable, the FSA.
 
-#### Lifecycle of Community Group Specifications
+#### Lifecycle maturity stages
 
 When a Community Group incubates a specification, they should have an eye towards future standardization. The CG program is meant to support technology development up to a point (and for an extended period of time), but not to be a permanent home.
 
@@ -192,3 +186,7 @@ A Community Group should document its standardization plans for a Specification 
 After a Community Group has transferred a Specification for standardization, the receiving standards group takes over responsibility for that snapshot. When the Community Group and standards group seek further collaboration, the Community Group may continue to incubate new features of the technology.
 
 When a Community Group Specification has traction and the Community Group does not wish to pursue standardization, the staff will help support the group's migration to another venue.
+
+## Other Types of Community Group Deliverables
+
+Non-Specification Community Group deliverables must be publicly available at no cost. This process does not include IPR or other requirements for non-Specification deliverables (e.g., code, test suites, or other documents that are not Specifications).
