@@ -39,14 +39,6 @@ For any questions about the Community Groups program, including discussions abou
 
 Community Groups are open to all with no fee.
 
-### Intellectual Property Policies
-
-The Community Group intellectual property (IPR) policies seek to balance the concerns of both implementers and participants who hold Intellectual Property. Please see the [Patent and Copyright Policy Summary](https://www.w3.org/community/about/process/summary/), which covers the [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/2025/08/cla) and the [W3C Community Final Specification Agreement (FSA)](https://www.w3.org/2025/08/final). 
-
-W3C has a preference for organizational, rather than individual patent commitments. Requests to participate in an individual capacity without a corresponding organizational commitment will be subject to approval by the W3C staff; such approval to be granted or denied in the W3C Staff’s sole discretion. See the [Guidelines for Evaluating Individual Requests to Participate in a Group](https://www.w3.org/community/about/process/guidelines-for-evaluating-individual-requests-to-participate-in-a-group/).
-
-When a participant resigns from a Community Group, they incur no new or further obligations after the date of resignation and maintain only those obligations already incurred, and that survive resignation from the Community Group, as provided in the CLA and, when applicable, the FSA.
-
 ### When participation issues arise
 
 We encourage participants to first work with the Chairs to resolve any participation issues. If more help is needed, please reach out to the Community Development Leads. If further help is needed, this process adopts the [W3C Code of Conduct](https://www.w3.org/policies/code-of-conduct/) and [Guidelines to suspend or remove participants from groups](https://www.w3.org/guide/process/suspension.html) for incident resolution and escalation.
@@ -163,9 +155,13 @@ Non-Specification Community Group deliverables must be publicly available at no 
 
 A Community Group Specification is any document intended to enable interoperable implementation of a technology. In case there is any doubt about whether a Community Group deliverable is a Specification, the Community Development Lead makes a determination for the purposes of conformance to Community Group policies.
 
-#### Intellectual Property
+#### Intellectual Property Policies for Specifications
 
-Contributions and licensing commitments are governed by [Community Group patent and copyright policies](https://www.w3.org/community/about/process/summary/). 
+The Community Group intellectual property (IPR) policies for Specifications seek to balance the concerns of both implementers and participants who hold Intellectual Property. Please see the [Patent and Copyright Policy Summary](https://www.w3.org/community/about/process/summary/), which covers the [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/2025/08/cla) and the [W3C Community Final Specification Agreement (FSA)](https://www.w3.org/2025/08/final). 
+
+W3C has a preference for organizational, rather than individual patent commitments. Requests to participate in an individual capacity without a corresponding organizational commitment will be subject to approval by the W3C staff; such approval to be granted or denied in the W3C Staff’s sole discretion. See the [Guidelines for Evaluating Individual Requests to Participate in a Group](https://www.w3.org/community/about/process/guidelines-for-evaluating-individual-requests-to-participate-in-a-group/).
+
+When a participant resigns from a Community Group, they incur no new or further obligations after the date of resignation and maintain only those obligations already incurred, and that survive resignation from the Community Group, as provided in the CLA and, when applicable, the FSA.
 
 #### Lifecycle of Community Group Specifications
 
