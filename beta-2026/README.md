@@ -25,13 +25,9 @@ The following versions of specifications are **for beta purposes only** and are 
 
 We anticipate three phases for the beta:
 
-* **Phase 1**: through comparison tests with 4-10 select individuals of the target audiences, confirm that the new designs communicate information more clearly than the historical designs.
-* **Phase 2**: confirm that metadata management provides value and is not overly burdensome for specification editors.
+* **Phase 1**: through comparison tests with 4-10 select individuals of the target audiences, confirm that the new designs communicate information more clearly than the historical designs. (Completed Q2 2026)
+* **Phase 2**: confirm that metadata management provides value and is not overly burdensome for specification editors. (Anticipated after TPAC 2026)
 * **Phase 3**: Solicit general feedback on the designs, apply them to a wider set of specifications (of different types), and gain more confidence that they communicate information more clearly than the historical designs.
-
-We expect Phase 1 to begin in late April or in May. 
-Once the first phase is underway, 
-we expect each phase to last approximately two months.
 
 ## Resources
 
@@ -40,3 +36,4 @@ Several proposals in development within this Community Group provide background 
 * [CG redesign overview](cg-redesign-overview.md)
 * An enhanced [CG Specification Lifecycle](../proposals/spec-lifecycle.md). The new designs seek to communicate the maturity levels of the enhanced lifecycle.
 * [Describing Implementation Traction](../proposals/spec-lifecycle-implementation-traction.md), which documents some of the thinking behind the status signals that appear in the usage guidance section.
+* [w3c/cg-assets source files for the CG program](https://github.com/w3c/cg-assets)
