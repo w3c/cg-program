@@ -76,6 +76,13 @@ Living CG specification drafts include the following states in a progress bar:
 * **Standardization started**
   * This means that some or all of this specification is now undergoing standardization (e.g., in a W3C Working Group). 
   * When a Community Group continues to work on a living specification after transferring some material to a group for standardization, the CG can decide whether it wants to indicate "Standardization started" even as it develops the living specification, or whether it wants to return to an earlier state of the progress bar to indicate more of a departure from what has been transferred. In either case, the document status section should describe the relationship between the CG and WG activities.
+ 
+The Experimentation Status line in the status table has values that correspond to these states:
+
+* Early idea: It may be too soon for adopters to experiment given lack of implementation.
+* Implementer experimentation: There is one implementation, so some experimentation is possible and can help improve the technology (see detailed browser compatibility data).
+* Partial availability: Experimentation encouraged, but use with caution for broad deployment given limited availability (see detailed browser compatibility data).
+* Standardization started: Experimentation encouraged, interoperability will increase as standardization proceeds (see detailed browser compatibility data).
 
 ## Status signals
 
