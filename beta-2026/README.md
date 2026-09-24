@@ -1,6 +1,8 @@
 # CG specifications lifecycle beta
 
-W3C is planning to run a beta test on new designs for Community Group specifications. We expect to start the beta in April 2026 and, when we are ready, we will provide instructions here on how to provide feedback.
+W3C is developing and testing new designs for Community Group specifications. Please [raise an issue](https://github.com/w3c/cg-program/issues/new/choose) to provide feedback on the beta, and use label "beta-2026"
+
+See the [history of specification mockups](https://github.com/w3c/cg-program/tree/main/spec-mockups).
 
 ## Scope
 
@@ -14,20 +16,20 @@ The outcomes we seek through the beta are:
 * The new designs and metadata improve understanding by key audiences of the status of CG Specifications and their relationship to standardization at W3C.
 * The new designs and metadata are sufficiently socialized with the community and that the community will support adopting the changes.
 
-## Specifications for the beta
-
-The following versions of specifications are **for beta purposes only** and are based on [file-system-access](https://wicg.github.io/file-system-access/) and [scheduling-apis](https://wicg.github.io/scheduling-apis/).
-
-* file-system-access: [old design](https://w3c.github.io/cg-program/beta-2026/file-system-access/a.html) / [new design](https://w3c.github.io/cg-program/beta-2026/file-system-access/b.html)
-* scheduling-apis: [old design](https://w3c.github.io/cg-program/beta-2026/scheduling-apis/a.html) / [new design](https://w3c.github.io/cg-program/beta-2026/scheduling-apis/b.html)
-
 ## Phases
 
-We anticipate three phases for the beta:
+We conducted a first beta test period in Q2-Q3 2026 by conducting a dozen interviews with developers and people in the policy space. These interviews led to updates to our [mockups](https://github.com/w3c/cg-program/tree/main/spec-mockups).
 
-* **Phase 1**: through comparison tests with 4-10 select individuals of the target audiences, confirm that the new designs communicate information more clearly than the historical designs. (Completed Q2 2026)
-* **Phase 2**: confirm that metadata management provides value and is not overly burdensome for specification editors. (Anticipated after TPAC 2026)
-* **Phase 3**: Solicit general feedback on the designs, apply them to a wider set of specifications (of different types), and gain more confidence that they communicate information more clearly than the historical designs.
+A second beta phase, anticipated to start at TPAC 2026 (late October 2026), will focus on metadata management in the new system, but will also solicit input from a wider audience.
+
+In parallel with the redesign efforts, we plan to:
+
+* Create a new subdomain on w3.org where we will publish both snapshots and living CG specifications. This, in turn, will necessitate changes to the organization of the Community Group site (w3.org/community).
+* Build new publication tools for CG Chairs to register specifications for publication.
+* Publish a new set of specification requirements (corresponding to the new designs) and validator that will facilitate publication.
+* Enhance CG group pages to include a list of registered specifications.
+
+We also plan to revise the [CG Process](https://github.com/w3c/cg-program/blob/main/proposals/cg-process.md) and expect to seek Member review of that revision before announcing it is live.
 
 ## Resources
 
