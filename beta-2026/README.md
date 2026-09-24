@@ -1,8 +1,8 @@
 # CG specifications lifecycle beta
 
-W3C is developing and testing new designs for Community Group specifications. Please [raise an issue](https://github.com/w3c/cg-program/issues/new/choose) to provide feedback on the beta, and use label "beta-2026"
+W3C is developing and testing new designs for Community Group specifications. See the [history of specification mockups](https://github.com/w3c/cg-program/tree/main/spec-mockups).
 
-See the [history of specification mockups](https://github.com/w3c/cg-program/tree/main/spec-mockups).
+We welcome feedback in the beta. Please [raise an issue](https://github.com/w3c/cg-program/issues/new/choose) and use label "beta-2026".
 
 ## Scope
 
