@@ -24,6 +24,20 @@ html {
   scroll-padding-top: 3rem;
 }
 
+#cg-logo {
+  padding: 0;
+  margin:0;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-block-end: 1em;
+}
+        
+.pattern-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cdefs%3E%3Cpattern id='p' width='22' height='22' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 22 0 L 0 0 0 22' fill='none' stroke='%2372aed7' stroke-width='3'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='22' height='22' fill='none'/%3E%3Crect width='22' height='22' fill='url(%23p)' opacity='0.05'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+
 /* Set background colour for CG Reports */
 body {
   background-color: var(--bg);
