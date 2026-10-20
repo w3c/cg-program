@@ -6,6 +6,12 @@ Please note that these are **draft** mockups and must not yet be used on Communi
 
 ## Revisions based on beta feedback
 
+* V13 samples
+  * [Scheduling-api](https://w3c.github.io/cg-program/spec-mockups/v13/scheduling-apis/b.html)
+  * [Scheduling-api snapshot](https://w3c.github.io/cg-program/spec-mockups/v13/scheduling-apis/b-snapshot.html)
+  * [Scheduling-api transferred](https://w3c.github.io/cg-program/spec-mockups/v13/scheduling-apis/b-transferred.html)
+  * [Scheduling-api unmaintained](https://w3c.github.io/cg-program/spec-mockups/v13/scheduling-apis/b-unmaintained.html)
+  * [File system access](https://w3c.github.io/cg-program/spec-mockups/v13/file-system-access/b.html)
 * V12 samples
   * [Scheduling-api](https://w3c.github.io/cg-program/spec-mockups/v12/scheduling-apis/b.html)
   * [Scheduling-api snapshot](https://w3c.github.io/cg-program/spec-mockups/v12/scheduling-apis/b-snapshot.html)
