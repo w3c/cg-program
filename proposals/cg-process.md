@@ -189,4 +189,4 @@ When a Community Group Specification has traction and the Community Group does n
 
 ## Other Types of Community Group Deliverables
 
-Non-Specification Community Group deliverables must be publicly available at no cost. This process does not include IPR or other requirements for non-Specification deliverables (e.g., code, test suites, or other documents that are not Specifications).
+Non-Specification Community Group deliverables must be publicly available at no cost. This process does not include IPR or other requirements for non-Specification deliverables (e.g., code, test suites, or other reports that are not Specifications).
