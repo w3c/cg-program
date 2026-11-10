@@ -157,6 +157,8 @@ W3C has a preference for organizational, rather than individual patent commitmen
 
 When a participant resigns from a Community Group, they incur no new or further obligations after the date of resignation and maintain only those obligations already incurred, and that survive resignation from the Community Group, as provided in the CLA and, when applicable, the FSA.
 
+Editors of a Specification must be participants in the Community Group responsible for the Specification.
+
 #### Lifecycle maturity stages
 
 When a Community Group incubates a specification, they should have an eye towards future standardization. The CG program is meant to support technology development up to a point (and for an extended period of time), but not to be a permanent home.
